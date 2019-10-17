@@ -1,0 +1,235 @@
+<instance format="XCSP3" type="CSP">
+  <variables>
+    <var id="q0"> 1 </var>
+    <var id="q1"> 0 1 2 3 </var>
+    <var id="q10"> 2 </var>
+    <var id="q11"> 0 1 2 3 4 </var>
+    <var id="q12"> 0 1 2 3 4 </var>
+    <var id="q13"> 0 1 2 3 4 </var>
+    <var id="q14"> 1 </var>
+    <var id="q15"> 1 </var>
+    <var id="q16"> 0 1 2 3 </var>
+    <var id="q17"> 0 1 2 3 </var>
+    <var id="q18"> 0 1 2 3 </var>
+    <var id="q19"> 0 </var>
+    <var id="q2"> 0 1 2 3 </var>
+    <var id="q20"> 1 </var>
+    <var id="q21"> 0 1 2 3 </var>
+    <var id="q22"> 0 1 2 3 </var>
+    <var id="q23"> 0 1 2 3 </var>
+    <var id="q24"> 0 </var>
+    <var id="q25"> 2 </var>
+    <var id="q26"> 0 1 2 3 4 5 </var>
+    <var id="q27"> 0 1 2 3 4 5 </var>
+    <var id="q28"> 0 1 2 3 4 5 </var>
+    <var id="q29"> 0 1 2 3 4 5 </var>
+    <var id="q3"> 0 1 2 3 </var>
+    <var id="q30"> 1 </var>
+    <var id="q31"> 1 </var>
+    <var id="q32"> 0 1 </var>
+    <var id="q33"> 0 1 </var>
+    <var id="q34"> 0 1 </var>
+    <var id="q35"> 0 1 </var>
+    <var id="q36"> 0 </var>
+    <var id="q37"> 1 </var>
+    <var id="q38"> 0 1 </var>
+    <var id="q39"> 0 1 </var>
+    <var id="q4"> 0 </var>
+    <var id="q40"> 0 1 </var>
+    <var id="q41"> 0 1 </var>
+    <var id="q42"> 0 </var>
+    <var id="q43"> 2 </var>
+    <var id="q44"> 0 1 2 3 4 5 </var>
+    <var id="q45"> 0 1 2 3 4 5 </var>
+    <var id="q46"> 0 1 2 3 4 5 </var>
+    <var id="q47"> 0 1 2 3 4 5 </var>
+    <var id="q48"> 1 </var>
+    <var id="q5"> 2 </var>
+    <var id="q6"> 0 1 2 3 4 </var>
+    <var id="q7"> 0 1 2 3 4 </var>
+    <var id="q8"> 0 1 2 3 4 </var>
+    <var id="q9"> 1 </var>
+    <var id="x_0_0"> 0 1 </var>
+    <var id="x_0_1"> 0 1 </var>
+    <var id="x_0_2"> 0 1 </var>
+    <var id="x_0_3"> 0 1 </var>
+    <var id="x_1_0"> 0 1 </var>
+    <var id="x_1_1"> 0 1 </var>
+    <var id="x_1_2"> 0 1 </var>
+    <var id="x_1_3"> 0 1 </var>
+    <var id="x_2_0"> 0 1 </var>
+    <var id="x_2_1"> 0 1 </var>
+    <var id="x_2_2"> 0 1 </var>
+    <var id="x_2_3"> 0 1 </var>
+    <var id="x_3_0"> 0 1 </var>
+    <var id="x_3_1"> 0 1 </var>
+    <var id="x_3_2"> 0 1 </var>
+    <var id="x_3_3"> 0 1 </var>
+    <var id="x_4_0"> 0 1 </var>
+    <var id="x_4_1"> 0 1 </var>
+    <var id="x_4_2"> 0 1 </var>
+    <var id="x_4_3"> 0 1 </var>
+</variables>
+  <constraints>
+    <extension id="c0">
+      <list> q0 x_0_0 q1 </list>
+      <supports> (1,1,2)(1,0,1) </supports>
+    </extension>
+    <extension id="c1">
+      <list> q1 x_0_1 q2 </list>
+      <supports> (0,0,0)(1,1,2)(1,0,1)(3,1,0)(2,0,3)(3,0,3) </supports>
+    </extension>
+    <extension id="c10">
+      <list> q12 x_2_2 q13 </list>
+      <supports> (0,1,1)(2,1,3)(2,0,2)(1,0,1)(4,1,0)(3,0,4)(4,0,4) </supports>
+    </extension>
+    <extension id="c11">
+      <list> q13 x_2_3 q14 </list>
+      <supports> (0,1,1)(1,0,1) </supports>
+    </extension>
+    <extension id="c12">
+      <list> q15 x_3_0 q16 </list>
+      <supports> (1,1,2)(1,0,1) </supports>
+    </extension>
+    <extension id="c13">
+      <list> q16 x_3_1 q17 </list>
+      <supports> (0,0,0)(1,1,2)(1,0,1)(3,1,0)(2,0,3)(3,0,3) </supports>
+    </extension>
+    <extension id="c14">
+      <list> q17 x_3_2 q18 </list>
+      <supports> (0,0,0)(1,1,2)(1,0,1)(3,1,0)(2,0,3)(3,0,3) </supports>
+    </extension>
+    <extension id="c15">
+      <list> q18 x_3_3 q19 </list>
+      <supports> (0,0,0)(3,1,0) </supports>
+    </extension>
+    <extension id="c16">
+      <list> q20 x_4_0 q21 </list>
+      <supports> (1,1,2)(1,0,1) </supports>
+    </extension>
+    <extension id="c17">
+      <list> q21 x_4_1 q22 </list>
+      <supports> (0,0,0)(1,1,2)(1,0,1)(2,0,3)(3,0,3)(3,1,0) </supports>
+    </extension>
+    <extension id="c18">
+      <list> q22 x_4_2 q23 </list>
+      <supports> (0,0,0)(1,1,2)(1,0,1)(2,0,3)(3,0,3)(3,1,0) </supports>
+    </extension>
+    <extension id="c19">
+      <list> q23 x_4_3 q24 </list>
+      <supports> (0,0,0)(3,1,0) </supports>
+    </extension>
+    <extension id="c2">
+      <list> q2 x_0_2 q3 </list>
+      <supports> (0,0,0)(1,1,2)(1,0,1)(3,1,0)(2,0,3)(3,0,3) </supports>
+    </extension>
+    <extension id="c20">
+      <list> q25 x_0_0 q26 </list>
+      <supports> (2,1,3)(2,0,2) </supports>
+    </extension>
+    <extension id="c21">
+      <list> q26 x_1_0 q27 </list>
+      <supports> (0,1,1)(2,1,3)(2,0,2)(3,1,4)(4,1,5)(1,0,1)(5,1,0) </supports>
+    </extension>
+    <extension id="c22">
+      <list> q27 x_2_0 q28 </list>
+      <supports> (0,1,1)(2,1,3)(2,0,2)(3,1,4)(4,1,5)(1,0,1)(5,1,0) </supports>
+    </extension>
+    <extension id="c23">
+      <list> q28 x_3_0 q29 </list>
+      <supports> (0,1,1)(2,1,3)(2,0,2)(3,1,4)(4,1,5)(1,0,1)(5,1,0) </supports>
+    </extension>
+    <extension id="c24">
+      <list> q29 x_4_0 q30 </list>
+      <supports> (0,1,1)(1,0,1) </supports>
+    </extension>
+    <extension id="c25">
+      <list> q31 x_0_1 q32 </list>
+      <supports> (1,0,1)(1,1,0) </supports>
+    </extension>
+    <extension id="c26">
+      <list> q32 x_1_1 q33 </list>
+      <supports> (0,0,0)(1,0,1)(1,1,0) </supports>
+    </extension>
+    <extension id="c27">
+      <list> q33 x_2_1 q34 </list>
+      <supports> (0,0,0)(1,0,1)(1,1,0) </supports>
+    </extension>
+    <extension id="c28">
+      <list> q34 x_3_1 q35 </list>
+      <supports> (0,0,0)(1,0,1)(1,1,0) </supports>
+    </extension>
+    <extension id="c29">
+      <list> q35 x_4_1 q36 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c3">
+      <list> q3 x_0_3 q4 </list>
+      <supports> (0,0,0)(3,1,0) </supports>
+    </extension>
+    <extension id="c30">
+      <list> q37 x_0_2 q38 </list>
+      <supports> (1,0,1)(1,1,0) </supports>
+    </extension>
+    <extension id="c31">
+      <list> q38 x_1_2 q39 </list>
+      <supports> (0,0,0)(1,0,1)(1,1,0) </supports>
+    </extension>
+    <extension id="c32">
+      <list> q39 x_2_2 q40 </list>
+      <supports> (0,0,0)(1,0,1)(1,1,0) </supports>
+    </extension>
+    <extension id="c33">
+      <list> q40 x_3_2 q41 </list>
+      <supports> (0,0,0)(1,0,1)(1,1,0) </supports>
+    </extension>
+    <extension id="c34">
+      <list> q41 x_4_2 q42 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c35">
+      <list> q43 x_0_3 q44 </list>
+      <supports> (2,1,3)(2,0,2) </supports>
+    </extension>
+    <extension id="c36">
+      <list> q44 x_1_3 q45 </list>
+      <supports> (0,1,1)(2,1,3)(2,0,2)(1,0,1)(4,1,0)(3,1,5)(5,1,4) </supports>
+    </extension>
+    <extension id="c37">
+      <list> q45 x_2_3 q46 </list>
+      <supports> (0,1,1)(2,1,3)(2,0,2)(1,0,1)(4,1,0)(3,1,5)(5,1,4) </supports>
+    </extension>
+    <extension id="c38">
+      <list> q46 x_3_3 q47 </list>
+      <supports> (0,1,1)(2,1,3)(2,0,2)(1,0,1)(4,1,0)(3,1,5)(5,1,4) </supports>
+    </extension>
+    <extension id="c39">
+      <list> q47 x_4_3 q48 </list>
+      <supports> (0,1,1)(1,0,1) </supports>
+    </extension>
+    <extension id="c4">
+      <list> q5 x_1_0 q6 </list>
+      <supports> (2,1,3)(2,0,2) </supports>
+    </extension>
+    <extension id="c5">
+      <list> q6 x_1_1 q7 </list>
+      <supports> (0,1,1)(2,1,3)(2,0,2)(1,0,1)(0,0,0)(3,1,4)(4,0,0) </supports>
+    </extension>
+    <extension id="c6">
+      <list> q7 x_1_2 q8 </list>
+      <supports> (0,1,1)(2,1,3)(2,0,2)(1,0,1)(0,0,0)(3,1,4)(4,0,0) </supports>
+    </extension>
+    <extension id="c7">
+      <list> q8 x_1_3 q9 </list>
+      <supports> (0,1,1)(1,0,1) </supports>
+    </extension>
+    <extension id="c8">
+      <list> q10 x_2_0 q11 </list>
+      <supports> (2,1,3)(2,0,2) </supports>
+    </extension>
+    <extension id="c9">
+      <list> q11 x_2_1 q12 </list>
+      <supports> (0,1,1)(2,1,3)(2,0,2)(1,0,1)(4,1,0)(3,0,4)(4,0,4) </supports>
+    </extension>
+  </constraints>
+</instance>

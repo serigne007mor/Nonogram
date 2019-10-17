@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<instance format="XCSP3" type="CSP">
+  <variables>
+    <array id="x" size="[5][4]"> 0 1 </array>
+  </variables>
+  <constraints>
+    <block class="rows">
+      <regular>
+        <list> x[0][] </list>
+        <transitions> (q0,0,q0)(q0,1,q1)(q1,0,q2)(q2,0,q2)(q2,1,q3)(q3,0,q3) </transitions>
+        <start> q0 </start>
+        <final> q3 </final>
+      </regular>
+      <regular>
+        <list> x[1][] </list>
+        <transitions> (q0,0,q0)(q0,1,q1)(q1,1,q2)(q2,0,q3)(q3,0,q3)(q3,1,q4)(q4,0,q4) </transitions>
+        <start> q0 </start>
+        <final> q4 </final>
+      </regular>
+      <regular>
+        <list> x[2][] </list>
+        <transitions> (q0,0,q0)(q0,1,q1)(q1,0,q2)(q2,0,q2)(q2,1,q3)(q3,1,q4)(q4,0,q4) </transitions>
+        <start> q0 </start>
+        <final> q4 </final>
+      </regular>
+      <regular>
+        <list> x[3][] </list>
+        <transitions> (q0,0,q0)(q0,1,q1)(q1,0,q2)(q2,0,q2)(q2,1,q3)(q3,0,q3) </transitions>
+        <start> q0 </start>
+        <final> q3 </final>
+      </regular>
+      <regular>
+        <list> x[4][] </list>
+        <transitions> (q0,0,q0)(q0,1,q1)(q1,0,q2)(q2,0,q2)(q2,1,q3)(q3,0,q3) </transitions>
+        <start> q0 </start>
+        <final> q3 </final>
+      </regular>
+    </block>
+    <block class="columns">
+      <regular>
+        <list> x[][0] </list>
+        <transitions> (q0,0,q0)(q0,1,q1)(q1,1,q2)(q2,1,q3)(q3,1,q4)(q4,1,q5)(q5,0,q5) </transitions>
+        <start> q0 </start>
+        <final> q5 </final>
+      </regular>
+      <regular>
+        <list> x[][1] </list>
+        <transitions> (q0,0,q0)(q0,1,q1)(q1,0,q1) </transitions>
+        <start> q0 </start>
+        <final> q1 </final>
+      </regular>
+      <regular>
+        <list> x[][2] </list>
+        <transitions> (q0,0,q0)(q0,1,q1)(q1,0,q1) </transitions>
+        <start> q0 </start>
+        <final> q1 </final>
+      </regular>
+      <regular>
+        <list> x[][3] </list>
+        <transitions> (q0,0,q0)(q0,1,q1)(q1,1,q2)(q2,1,q3)(q3,1,q4)(q4,1,q5)(q5,0,q5) </transitions>
+        <start> q0 </start>
+        <final> q5 </final>
+      </regular>
+    </block>
+  </constraints>
+</instance>
+

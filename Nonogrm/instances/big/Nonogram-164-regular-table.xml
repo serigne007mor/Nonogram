@@ -1,0 +1,2853 @@
+<instance format="XCSP3" type="CSP">
+  <variables>
+    <var id="q0"> 0 </var>
+    <var id="q1"> 0 </var>
+    <var id="q10"> 0 </var>
+    <var id="q100"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q101"> 1 </var>
+    <var id="q102"> 7 </var>
+    <var id="q103"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q104"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q105"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q106"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q107"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q108"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q109"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q11"> 0 </var>
+    <var id="q110"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q111"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q112"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q113"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q114"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q115"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q116"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q117"> 0 1 2 3 4 5 6 7 8 9 10 11 12 </var>
+    <var id="q118"> 9 </var>
+    <var id="q119"> 7 </var>
+    <var id="q12"> 0 </var>
+    <var id="q120"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q121"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q122"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q123"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q124"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q125"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q126"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q127"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q128"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q129"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q13"> 0 </var>
+    <var id="q130"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q131"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q132"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q133"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q134"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q135"> 1 </var>
+    <var id="q136"> 7 </var>
+    <var id="q137"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q138"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q139"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q14"> 0 </var>
+    <var id="q140"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q141"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q142"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q143"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q144"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q145"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q146"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q147"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q148"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q149"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q15"> 0 </var>
+    <var id="q150"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q151"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q152"> 1 </var>
+    <var id="q153"> 6 </var>
+    <var id="q154"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q155"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q156"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q157"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q158"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q159"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q16"> 0 </var>
+    <var id="q160"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q161"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q162"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q163"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q164"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q165"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q166"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q167"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q168"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q169"> 8 </var>
+    <var id="q17"> 0 </var>
+    <var id="q170"> 4 </var>
+    <var id="q171"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q172"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q173"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q174"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q175"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q176"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q177"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q178"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q179"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q18"> 0 </var>
+    <var id="q180"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q181"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q182"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q183"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q184"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q185"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q186"> 0 </var>
+    <var id="q187"> 6 </var>
+    <var id="q188"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q189"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q19"> 0 </var>
+    <var id="q190"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q191"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q192"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q193"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q194"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q195"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q196"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q197"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q198"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q199"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q2"> 0 </var>
+    <var id="q20"> 0 </var>
+    <var id="q200"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q201"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q202"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q203"> 0 </var>
+    <var id="q204"> 5 </var>
+    <var id="q205"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q206"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q207"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q208"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q209"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q21"> 0 </var>
+    <var id="q210"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q211"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q212"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q213"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q214"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q215"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q216"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q217"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q218"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q219"> 0 1 2 3 4 5 6 7 8 </var>
+    <var id="q22"> 0 </var>
+    <var id="q220"> 0 </var>
+    <var id="q221"> 3 </var>
+    <var id="q222"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q223"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q224"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q225"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q226"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q227"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q228"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q229"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q23"> 0 </var>
+    <var id="q230"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q231"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q232"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q233"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q234"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q235"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q236"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q237"> 0 </var>
+    <var id="q238"> 4 </var>
+    <var id="q239"> 0 1 2 3 4 </var>
+    <var id="q24"> 0 </var>
+    <var id="q240"> 0 1 2 3 4 </var>
+    <var id="q241"> 0 1 2 3 4 </var>
+    <var id="q242"> 0 1 2 3 4 </var>
+    <var id="q243"> 0 1 2 3 4 </var>
+    <var id="q244"> 0 1 2 3 4 </var>
+    <var id="q245"> 0 1 2 3 4 </var>
+    <var id="q246"> 0 1 2 3 4 </var>
+    <var id="q247"> 0 1 2 3 4 </var>
+    <var id="q248"> 0 1 2 3 4 </var>
+    <var id="q249"> 0 1 2 3 4 </var>
+    <var id="q25"> 0 </var>
+    <var id="q250"> 0 1 2 3 4 </var>
+    <var id="q251"> 0 1 2 3 4 </var>
+    <var id="q252"> 0 1 2 3 4 </var>
+    <var id="q253"> 0 1 2 3 4 </var>
+    <var id="q254"> 0 </var>
+    <var id="q255"> 2 </var>
+    <var id="q256"> 0 1 2 </var>
+    <var id="q257"> 0 1 2 </var>
+    <var id="q258"> 0 1 2 </var>
+    <var id="q259"> 0 1 2 </var>
+    <var id="q26"> 0 </var>
+    <var id="q260"> 0 1 2 </var>
+    <var id="q261"> 0 1 2 </var>
+    <var id="q262"> 0 1 2 </var>
+    <var id="q263"> 0 1 2 </var>
+    <var id="q264"> 0 1 2 </var>
+    <var id="q265"> 0 1 2 </var>
+    <var id="q266"> 0 1 2 </var>
+    <var id="q267"> 0 1 2 </var>
+    <var id="q268"> 0 1 2 </var>
+    <var id="q269"> 0 1 2 </var>
+    <var id="q27"> 0 </var>
+    <var id="q270"> 0 1 2 </var>
+    <var id="q271"> 1 </var>
+    <var id="q272"> 4 </var>
+    <var id="q273"> 0 1 2 3 4 </var>
+    <var id="q274"> 0 1 2 3 4 </var>
+    <var id="q275"> 0 1 2 3 4 </var>
+    <var id="q276"> 0 1 2 3 4 </var>
+    <var id="q277"> 0 1 2 3 4 </var>
+    <var id="q278"> 0 1 2 3 4 </var>
+    <var id="q279"> 0 1 2 3 4 </var>
+    <var id="q28"> 0 </var>
+    <var id="q280"> 0 1 2 3 4 </var>
+    <var id="q281"> 0 1 2 3 4 </var>
+    <var id="q282"> 0 1 2 3 4 </var>
+    <var id="q283"> 0 1 2 3 4 </var>
+    <var id="q284"> 0 1 2 3 4 </var>
+    <var id="q285"> 0 1 2 3 4 </var>
+    <var id="q286"> 0 1 2 3 4 </var>
+    <var id="q287"> 0 1 2 3 4 </var>
+    <var id="q288"> 0 </var>
+    <var id="q289"> 4 </var>
+    <var id="q29"> 0 </var>
+    <var id="q290"> 0 1 2 3 4 </var>
+    <var id="q291"> 0 1 2 3 4 </var>
+    <var id="q292"> 0 1 2 3 4 </var>
+    <var id="q293"> 0 1 2 3 4 </var>
+    <var id="q294"> 0 1 2 3 4 </var>
+    <var id="q295"> 0 1 2 3 4 </var>
+    <var id="q296"> 0 1 2 3 4 </var>
+    <var id="q297"> 0 1 2 3 4 </var>
+    <var id="q298"> 0 1 2 3 4 </var>
+    <var id="q299"> 0 1 2 3 4 </var>
+    <var id="q3"> 0 </var>
+    <var id="q30"> 0 </var>
+    <var id="q300"> 0 1 2 3 4 </var>
+    <var id="q301"> 0 1 2 3 4 </var>
+    <var id="q302"> 0 1 2 3 4 </var>
+    <var id="q303"> 0 1 2 3 4 </var>
+    <var id="q304"> 0 1 2 3 4 </var>
+    <var id="q305"> 0 </var>
+    <var id="q306"> 2 </var>
+    <var id="q307"> 0 1 2 3 4 5 6 </var>
+    <var id="q308"> 0 1 2 3 4 5 6 </var>
+    <var id="q309"> 0 1 2 3 4 5 6 </var>
+    <var id="q31"> 0 </var>
+    <var id="q310"> 0 1 2 3 4 5 6 </var>
+    <var id="q311"> 0 1 2 3 4 5 6 </var>
+    <var id="q312"> 0 1 2 3 4 5 6 </var>
+    <var id="q313"> 0 1 2 3 4 5 6 </var>
+    <var id="q314"> 0 1 2 3 4 5 6 </var>
+    <var id="q315"> 0 1 2 3 4 5 6 </var>
+    <var id="q316"> 0 1 2 3 4 5 6 </var>
+    <var id="q317"> 0 1 2 3 4 5 6 </var>
+    <var id="q318"> 0 1 2 3 4 5 6 </var>
+    <var id="q319"> 0 1 2 3 4 5 6 </var>
+    <var id="q32"> 0 </var>
+    <var id="q320"> 0 1 2 3 4 5 6 </var>
+    <var id="q321"> 0 1 2 3 4 5 6 </var>
+    <var id="q322"> 0 </var>
+    <var id="q323"> 2 </var>
+    <var id="q324"> 0 1 2 3 4 5 6 </var>
+    <var id="q325"> 0 1 2 3 4 5 6 </var>
+    <var id="q326"> 0 1 2 3 4 5 6 </var>
+    <var id="q327"> 0 1 2 3 4 5 6 </var>
+    <var id="q328"> 0 1 2 3 4 5 6 </var>
+    <var id="q329"> 0 1 2 3 4 5 6 </var>
+    <var id="q33"> 0 </var>
+    <var id="q330"> 0 1 2 3 4 5 6 </var>
+    <var id="q331"> 0 1 2 3 4 5 6 </var>
+    <var id="q332"> 0 1 2 3 4 5 6 </var>
+    <var id="q333"> 0 1 2 3 4 5 6 </var>
+    <var id="q334"> 0 1 2 3 4 5 6 </var>
+    <var id="q335"> 0 1 2 3 4 5 6 </var>
+    <var id="q336"> 0 1 2 3 4 5 6 </var>
+    <var id="q337"> 0 1 2 3 4 5 6 </var>
+    <var id="q338"> 0 1 2 3 4 5 6 </var>
+    <var id="q339"> 0 </var>
+    <var id="q34"> 3 </var>
+    <var id="q340"> 2 </var>
+    <var id="q341"> 0 1 2 3 4 5 6 </var>
+    <var id="q342"> 0 1 2 3 4 5 6 </var>
+    <var id="q343"> 0 1 2 3 4 5 6 </var>
+    <var id="q344"> 0 1 2 3 4 5 6 </var>
+    <var id="q345"> 0 1 2 3 4 5 6 </var>
+    <var id="q346"> 0 1 2 3 4 5 6 </var>
+    <var id="q347"> 0 1 2 3 4 5 6 </var>
+    <var id="q348"> 0 1 2 3 4 5 6 </var>
+    <var id="q349"> 0 1 2 3 4 5 6 </var>
+    <var id="q35"> 0 1 2 3 </var>
+    <var id="q350"> 0 1 2 3 4 5 6 </var>
+    <var id="q351"> 0 1 2 3 4 5 6 </var>
+    <var id="q352"> 0 1 2 3 4 5 6 </var>
+    <var id="q353"> 0 1 2 3 4 5 6 </var>
+    <var id="q354"> 0 1 2 3 4 5 6 </var>
+    <var id="q355"> 0 1 2 3 4 5 6 </var>
+    <var id="q356"> 0 </var>
+    <var id="q357"> 3 </var>
+    <var id="q358"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q359"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q36"> 0 1 2 3 </var>
+    <var id="q360"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q361"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q362"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q363"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q364"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q365"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q366"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q367"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q368"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q369"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q37"> 0 1 2 3 </var>
+    <var id="q370"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q371"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q372"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q373"> 0 </var>
+    <var id="q374"> 3 </var>
+    <var id="q375"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q376"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q377"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q378"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q379"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q38"> 0 1 2 3 </var>
+    <var id="q380"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q381"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q382"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q383"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q384"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q385"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q386"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q387"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q388"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q389"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q39"> 0 1 2 3 </var>
+    <var id="q390"> 0 </var>
+    <var id="q391"> 3 </var>
+    <var id="q392"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q393"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q394"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q395"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q396"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q397"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q398"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q399"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q4"> 0 </var>
+    <var id="q40"> 0 1 2 3 </var>
+    <var id="q400"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q401"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q402"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q403"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q404"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q405"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q406"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q407"> 0 </var>
+    <var id="q408"> 3 </var>
+    <var id="q409"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q41"> 0 1 2 3 </var>
+    <var id="q410"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q411"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q412"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q413"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q414"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q415"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q416"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q417"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q418"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q419"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q42"> 0 1 2 3 </var>
+    <var id="q420"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q421"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q422"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q423"> 0 1 2 3 4 5 6 7 </var>
+    <var id="q424"> 0 </var>
+    <var id="q425"> 3 </var>
+    <var id="q426"> 0 1 2 3 4 5 6 </var>
+    <var id="q427"> 0 1 2 3 4 5 6 </var>
+    <var id="q428"> 0 1 2 3 4 5 6 </var>
+    <var id="q429"> 0 1 2 3 4 5 6 </var>
+    <var id="q43"> 0 1 2 3 </var>
+    <var id="q430"> 0 1 2 3 4 5 6 </var>
+    <var id="q431"> 0 1 2 3 4 5 6 </var>
+    <var id="q432"> 0 1 2 3 4 5 6 </var>
+    <var id="q433"> 0 1 2 3 4 5 6 </var>
+    <var id="q434"> 0 1 2 3 4 5 6 </var>
+    <var id="q435"> 0 1 2 3 4 5 6 </var>
+    <var id="q436"> 0 1 2 3 4 5 6 </var>
+    <var id="q437"> 0 1 2 3 4 5 6 </var>
+    <var id="q438"> 0 1 2 3 4 5 6 </var>
+    <var id="q439"> 0 1 2 3 4 5 6 </var>
+    <var id="q44"> 0 1 2 3 </var>
+    <var id="q440"> 0 1 2 3 4 5 6 </var>
+    <var id="q441"> 0 </var>
+    <var id="q442"> 3 </var>
+    <var id="q443"> 0 1 2 3 4 5 6 </var>
+    <var id="q444"> 0 1 2 3 4 5 6 </var>
+    <var id="q445"> 0 1 2 3 4 5 6 </var>
+    <var id="q446"> 0 1 2 3 4 5 6 </var>
+    <var id="q447"> 0 1 2 3 4 5 6 </var>
+    <var id="q448"> 0 1 2 3 4 5 6 </var>
+    <var id="q449"> 0 1 2 3 4 5 6 </var>
+    <var id="q45"> 0 1 2 3 </var>
+    <var id="q450"> 0 1 2 3 4 5 6 </var>
+    <var id="q451"> 0 1 2 3 4 5 6 </var>
+    <var id="q452"> 0 1 2 3 4 5 6 </var>
+    <var id="q453"> 0 1 2 3 4 5 6 </var>
+    <var id="q454"> 0 1 2 3 4 5 6 </var>
+    <var id="q455"> 0 1 2 3 4 5 6 </var>
+    <var id="q456"> 0 1 2 3 4 5 6 </var>
+    <var id="q457"> 0 1 2 3 4 5 6 </var>
+    <var id="q458"> 0 </var>
+    <var id="q459"> 7 </var>
+    <var id="q46"> 0 1 2 3 </var>
+    <var id="q460"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q461"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q462"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q463"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q464"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q465"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q466"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q467"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q468"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q469"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q47"> 0 1 2 3 </var>
+    <var id="q470"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q471"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q472"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q473"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q474"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q475"> 1 </var>
+    <var id="q476"> 7 </var>
+    <var id="q477"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q478"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q479"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q48"> 0 1 2 3 </var>
+    <var id="q480"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q481"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q482"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q483"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q484"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q485"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q486"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q487"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q488"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q489"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q49"> 0 1 2 3 </var>
+    <var id="q490"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q491"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q492"> 1 </var>
+    <var id="q493"> 6 </var>
+    <var id="q494"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q495"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q496"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q497"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q498"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q499"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q5"> 0 </var>
+    <var id="q50"> 2 </var>
+    <var id="q500"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q501"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q502"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q503"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q504"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q505"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q506"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q507"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q508"> 0 1 2 3 4 5 6 7 8 9 10 </var>
+    <var id="q509"> 0 </var>
+    <var id="q51"> 1 </var>
+    <var id="q510"> 1 </var>
+    <var id="q511"> 0 1 2 3 4 5 </var>
+    <var id="q512"> 0 1 2 3 4 5 </var>
+    <var id="q513"> 0 1 2 3 4 5 </var>
+    <var id="q514"> 0 1 2 3 4 5 </var>
+    <var id="q515"> 0 1 2 3 4 5 </var>
+    <var id="q516"> 0 1 2 3 4 5 </var>
+    <var id="q517"> 0 1 2 3 4 5 </var>
+    <var id="q518"> 0 1 2 3 4 5 </var>
+    <var id="q519"> 0 1 2 3 4 5 </var>
+    <var id="q52"> 0 1 2 3 4 5 </var>
+    <var id="q520"> 0 1 2 3 4 5 </var>
+    <var id="q521"> 0 1 2 3 4 5 </var>
+    <var id="q522"> 0 1 2 3 4 5 </var>
+    <var id="q523"> 0 1 2 3 4 5 </var>
+    <var id="q524"> 0 1 2 3 4 5 </var>
+    <var id="q525"> 0 1 2 3 4 5 </var>
+    <var id="q526"> 0 </var>
+    <var id="q527"> 3 </var>
+    <var id="q528"> 0 1 2 3 </var>
+    <var id="q529"> 0 1 2 3 </var>
+    <var id="q53"> 0 1 2 3 4 5 </var>
+    <var id="q530"> 0 1 2 3 </var>
+    <var id="q531"> 0 1 2 3 </var>
+    <var id="q532"> 0 1 2 3 </var>
+    <var id="q533"> 0 1 2 3 </var>
+    <var id="q534"> 0 1 2 3 </var>
+    <var id="q535"> 0 1 2 3 </var>
+    <var id="q536"> 0 1 2 3 </var>
+    <var id="q537"> 0 1 2 3 </var>
+    <var id="q538"> 0 1 2 3 </var>
+    <var id="q539"> 0 1 2 3 </var>
+    <var id="q54"> 0 1 2 3 4 5 </var>
+    <var id="q540"> 0 1 2 3 </var>
+    <var id="q541"> 0 1 2 3 </var>
+    <var id="q542"> 0 1 2 3 </var>
+    <var id="q543"> 2 </var>
+    <var id="q55"> 0 1 2 3 4 5 </var>
+    <var id="q56"> 0 1 2 3 4 5 </var>
+    <var id="q57"> 0 1 2 3 4 5 </var>
+    <var id="q58"> 0 1 2 3 4 5 </var>
+    <var id="q59"> 0 1 2 3 4 5 </var>
+    <var id="q6"> 0 </var>
+    <var id="q60"> 0 1 2 3 4 5 </var>
+    <var id="q61"> 0 1 2 3 4 5 </var>
+    <var id="q62"> 0 1 2 3 4 5 </var>
+    <var id="q63"> 0 1 2 3 4 5 </var>
+    <var id="q64"> 0 1 2 3 4 5 </var>
+    <var id="q65"> 0 1 2 3 4 5 </var>
+    <var id="q66"> 0 1 2 3 4 5 </var>
+    <var id="q67"> 0 </var>
+    <var id="q68"> 6 </var>
+    <var id="q69"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q7"> 0 </var>
+    <var id="q70"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q71"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q72"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q73"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q74"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q75"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q76"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q77"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q78"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q79"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q8"> 0 </var>
+    <var id="q80"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q81"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q82"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q83"> 0 1 2 3 4 5 6 7 8 9 </var>
+    <var id="q84"> 0 </var>
+    <var id="q85"> 7 </var>
+    <var id="q86"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q87"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q88"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q89"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q9"> 0 </var>
+    <var id="q90"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q91"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q92"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q93"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q94"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q95"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q96"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q97"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q98"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="q99"> 0 1 2 3 4 5 6 7 8 9 10 11 </var>
+    <var id="x_0_0"> 0 1 </var>
+    <var id="x_0_10"> 0 1 </var>
+    <var id="x_0_11"> 0 1 </var>
+    <var id="x_0_12"> 0 1 </var>
+    <var id="x_0_13"> 0 1 </var>
+    <var id="x_0_14"> 0 1 </var>
+    <var id="x_0_15"> 0 1 </var>
+    <var id="x_0_1"> 0 1 </var>
+    <var id="x_0_2"> 0 1 </var>
+    <var id="x_0_3"> 0 1 </var>
+    <var id="x_0_4"> 0 1 </var>
+    <var id="x_0_5"> 0 1 </var>
+    <var id="x_0_6"> 0 1 </var>
+    <var id="x_0_7"> 0 1 </var>
+    <var id="x_0_8"> 0 1 </var>
+    <var id="x_0_9"> 0 1 </var>
+    <var id="x_10_0"> 0 1 </var>
+    <var id="x_10_10"> 0 1 </var>
+    <var id="x_10_11"> 0 1 </var>
+    <var id="x_10_12"> 0 1 </var>
+    <var id="x_10_13"> 0 1 </var>
+    <var id="x_10_14"> 0 1 </var>
+    <var id="x_10_15"> 0 1 </var>
+    <var id="x_10_1"> 0 1 </var>
+    <var id="x_10_2"> 0 1 </var>
+    <var id="x_10_3"> 0 1 </var>
+    <var id="x_10_4"> 0 1 </var>
+    <var id="x_10_5"> 0 1 </var>
+    <var id="x_10_6"> 0 1 </var>
+    <var id="x_10_7"> 0 1 </var>
+    <var id="x_10_8"> 0 1 </var>
+    <var id="x_10_9"> 0 1 </var>
+    <var id="x_11_0"> 0 1 </var>
+    <var id="x_11_10"> 0 1 </var>
+    <var id="x_11_11"> 0 1 </var>
+    <var id="x_11_12"> 0 1 </var>
+    <var id="x_11_13"> 0 1 </var>
+    <var id="x_11_14"> 0 1 </var>
+    <var id="x_11_15"> 0 1 </var>
+    <var id="x_11_1"> 0 1 </var>
+    <var id="x_11_2"> 0 1 </var>
+    <var id="x_11_3"> 0 1 </var>
+    <var id="x_11_4"> 0 1 </var>
+    <var id="x_11_5"> 0 1 </var>
+    <var id="x_11_6"> 0 1 </var>
+    <var id="x_11_7"> 0 1 </var>
+    <var id="x_11_8"> 0 1 </var>
+    <var id="x_11_9"> 0 1 </var>
+    <var id="x_12_0"> 0 1 </var>
+    <var id="x_12_10"> 0 1 </var>
+    <var id="x_12_11"> 0 1 </var>
+    <var id="x_12_12"> 0 1 </var>
+    <var id="x_12_13"> 0 1 </var>
+    <var id="x_12_14"> 0 1 </var>
+    <var id="x_12_15"> 0 1 </var>
+    <var id="x_12_1"> 0 1 </var>
+    <var id="x_12_2"> 0 1 </var>
+    <var id="x_12_3"> 0 1 </var>
+    <var id="x_12_4"> 0 1 </var>
+    <var id="x_12_5"> 0 1 </var>
+    <var id="x_12_6"> 0 1 </var>
+    <var id="x_12_7"> 0 1 </var>
+    <var id="x_12_8"> 0 1 </var>
+    <var id="x_12_9"> 0 1 </var>
+    <var id="x_13_0"> 0 1 </var>
+    <var id="x_13_10"> 0 1 </var>
+    <var id="x_13_11"> 0 1 </var>
+    <var id="x_13_12"> 0 1 </var>
+    <var id="x_13_13"> 0 1 </var>
+    <var id="x_13_14"> 0 1 </var>
+    <var id="x_13_15"> 0 1 </var>
+    <var id="x_13_1"> 0 1 </var>
+    <var id="x_13_2"> 0 1 </var>
+    <var id="x_13_3"> 0 1 </var>
+    <var id="x_13_4"> 0 1 </var>
+    <var id="x_13_5"> 0 1 </var>
+    <var id="x_13_6"> 0 1 </var>
+    <var id="x_13_7"> 0 1 </var>
+    <var id="x_13_8"> 0 1 </var>
+    <var id="x_13_9"> 0 1 </var>
+    <var id="x_14_0"> 0 1 </var>
+    <var id="x_14_10"> 0 1 </var>
+    <var id="x_14_11"> 0 1 </var>
+    <var id="x_14_12"> 0 1 </var>
+    <var id="x_14_13"> 0 1 </var>
+    <var id="x_14_14"> 0 1 </var>
+    <var id="x_14_15"> 0 1 </var>
+    <var id="x_14_1"> 0 1 </var>
+    <var id="x_14_2"> 0 1 </var>
+    <var id="x_14_3"> 0 1 </var>
+    <var id="x_14_4"> 0 1 </var>
+    <var id="x_14_5"> 0 1 </var>
+    <var id="x_14_6"> 0 1 </var>
+    <var id="x_14_7"> 0 1 </var>
+    <var id="x_14_8"> 0 1 </var>
+    <var id="x_14_9"> 0 1 </var>
+    <var id="x_15_0"> 0 1 </var>
+    <var id="x_15_10"> 0 1 </var>
+    <var id="x_15_11"> 0 1 </var>
+    <var id="x_15_12"> 0 1 </var>
+    <var id="x_15_13"> 0 1 </var>
+    <var id="x_15_14"> 0 1 </var>
+    <var id="x_15_15"> 0 1 </var>
+    <var id="x_15_1"> 0 1 </var>
+    <var id="x_15_2"> 0 1 </var>
+    <var id="x_15_3"> 0 1 </var>
+    <var id="x_15_4"> 0 1 </var>
+    <var id="x_15_5"> 0 1 </var>
+    <var id="x_15_6"> 0 1 </var>
+    <var id="x_15_7"> 0 1 </var>
+    <var id="x_15_8"> 0 1 </var>
+    <var id="x_15_9"> 0 1 </var>
+    <var id="x_1_0"> 0 1 </var>
+    <var id="x_1_10"> 0 1 </var>
+    <var id="x_1_11"> 0 1 </var>
+    <var id="x_1_12"> 0 1 </var>
+    <var id="x_1_13"> 0 1 </var>
+    <var id="x_1_14"> 0 1 </var>
+    <var id="x_1_15"> 0 1 </var>
+    <var id="x_1_1"> 0 1 </var>
+    <var id="x_1_2"> 0 1 </var>
+    <var id="x_1_3"> 0 1 </var>
+    <var id="x_1_4"> 0 1 </var>
+    <var id="x_1_5"> 0 1 </var>
+    <var id="x_1_6"> 0 1 </var>
+    <var id="x_1_7"> 0 1 </var>
+    <var id="x_1_8"> 0 1 </var>
+    <var id="x_1_9"> 0 1 </var>
+    <var id="x_2_0"> 0 1 </var>
+    <var id="x_2_10"> 0 1 </var>
+    <var id="x_2_11"> 0 1 </var>
+    <var id="x_2_12"> 0 1 </var>
+    <var id="x_2_13"> 0 1 </var>
+    <var id="x_2_14"> 0 1 </var>
+    <var id="x_2_15"> 0 1 </var>
+    <var id="x_2_1"> 0 1 </var>
+    <var id="x_2_2"> 0 1 </var>
+    <var id="x_2_3"> 0 1 </var>
+    <var id="x_2_4"> 0 1 </var>
+    <var id="x_2_5"> 0 1 </var>
+    <var id="x_2_6"> 0 1 </var>
+    <var id="x_2_7"> 0 1 </var>
+    <var id="x_2_8"> 0 1 </var>
+    <var id="x_2_9"> 0 1 </var>
+    <var id="x_3_0"> 0 1 </var>
+    <var id="x_3_10"> 0 1 </var>
+    <var id="x_3_11"> 0 1 </var>
+    <var id="x_3_12"> 0 1 </var>
+    <var id="x_3_13"> 0 1 </var>
+    <var id="x_3_14"> 0 1 </var>
+    <var id="x_3_15"> 0 1 </var>
+    <var id="x_3_1"> 0 1 </var>
+    <var id="x_3_2"> 0 1 </var>
+    <var id="x_3_3"> 0 1 </var>
+    <var id="x_3_4"> 0 1 </var>
+    <var id="x_3_5"> 0 1 </var>
+    <var id="x_3_6"> 0 1 </var>
+    <var id="x_3_7"> 0 1 </var>
+    <var id="x_3_8"> 0 1 </var>
+    <var id="x_3_9"> 0 1 </var>
+    <var id="x_4_0"> 0 1 </var>
+    <var id="x_4_10"> 0 1 </var>
+    <var id="x_4_11"> 0 1 </var>
+    <var id="x_4_12"> 0 1 </var>
+    <var id="x_4_13"> 0 1 </var>
+    <var id="x_4_14"> 0 1 </var>
+    <var id="x_4_15"> 0 1 </var>
+    <var id="x_4_1"> 0 1 </var>
+    <var id="x_4_2"> 0 1 </var>
+    <var id="x_4_3"> 0 1 </var>
+    <var id="x_4_4"> 0 1 </var>
+    <var id="x_4_5"> 0 1 </var>
+    <var id="x_4_6"> 0 1 </var>
+    <var id="x_4_7"> 0 1 </var>
+    <var id="x_4_8"> 0 1 </var>
+    <var id="x_4_9"> 0 1 </var>
+    <var id="x_5_0"> 0 1 </var>
+    <var id="x_5_10"> 0 1 </var>
+    <var id="x_5_11"> 0 1 </var>
+    <var id="x_5_12"> 0 1 </var>
+    <var id="x_5_13"> 0 1 </var>
+    <var id="x_5_14"> 0 1 </var>
+    <var id="x_5_15"> 0 1 </var>
+    <var id="x_5_1"> 0 1 </var>
+    <var id="x_5_2"> 0 1 </var>
+    <var id="x_5_3"> 0 1 </var>
+    <var id="x_5_4"> 0 1 </var>
+    <var id="x_5_5"> 0 1 </var>
+    <var id="x_5_6"> 0 1 </var>
+    <var id="x_5_7"> 0 1 </var>
+    <var id="x_5_8"> 0 1 </var>
+    <var id="x_5_9"> 0 1 </var>
+    <var id="x_6_0"> 0 1 </var>
+    <var id="x_6_10"> 0 1 </var>
+    <var id="x_6_11"> 0 1 </var>
+    <var id="x_6_12"> 0 1 </var>
+    <var id="x_6_13"> 0 1 </var>
+    <var id="x_6_14"> 0 1 </var>
+    <var id="x_6_15"> 0 1 </var>
+    <var id="x_6_1"> 0 1 </var>
+    <var id="x_6_2"> 0 1 </var>
+    <var id="x_6_3"> 0 1 </var>
+    <var id="x_6_4"> 0 1 </var>
+    <var id="x_6_5"> 0 1 </var>
+    <var id="x_6_6"> 0 1 </var>
+    <var id="x_6_7"> 0 1 </var>
+    <var id="x_6_8"> 0 1 </var>
+    <var id="x_6_9"> 0 1 </var>
+    <var id="x_7_0"> 0 1 </var>
+    <var id="x_7_10"> 0 1 </var>
+    <var id="x_7_11"> 0 1 </var>
+    <var id="x_7_12"> 0 1 </var>
+    <var id="x_7_13"> 0 1 </var>
+    <var id="x_7_14"> 0 1 </var>
+    <var id="x_7_15"> 0 1 </var>
+    <var id="x_7_1"> 0 1 </var>
+    <var id="x_7_2"> 0 1 </var>
+    <var id="x_7_3"> 0 1 </var>
+    <var id="x_7_4"> 0 1 </var>
+    <var id="x_7_5"> 0 1 </var>
+    <var id="x_7_6"> 0 1 </var>
+    <var id="x_7_7"> 0 1 </var>
+    <var id="x_7_8"> 0 1 </var>
+    <var id="x_7_9"> 0 1 </var>
+    <var id="x_8_0"> 0 1 </var>
+    <var id="x_8_10"> 0 1 </var>
+    <var id="x_8_11"> 0 1 </var>
+    <var id="x_8_12"> 0 1 </var>
+    <var id="x_8_13"> 0 1 </var>
+    <var id="x_8_14"> 0 1 </var>
+    <var id="x_8_15"> 0 1 </var>
+    <var id="x_8_1"> 0 1 </var>
+    <var id="x_8_2"> 0 1 </var>
+    <var id="x_8_3"> 0 1 </var>
+    <var id="x_8_4"> 0 1 </var>
+    <var id="x_8_5"> 0 1 </var>
+    <var id="x_8_6"> 0 1 </var>
+    <var id="x_8_7"> 0 1 </var>
+    <var id="x_8_8"> 0 1 </var>
+    <var id="x_8_9"> 0 1 </var>
+    <var id="x_9_0"> 0 1 </var>
+    <var id="x_9_10"> 0 1 </var>
+    <var id="x_9_11"> 0 1 </var>
+    <var id="x_9_12"> 0 1 </var>
+    <var id="x_9_13"> 0 1 </var>
+    <var id="x_9_14"> 0 1 </var>
+    <var id="x_9_15"> 0 1 </var>
+    <var id="x_9_1"> 0 1 </var>
+    <var id="x_9_2"> 0 1 </var>
+    <var id="x_9_3"> 0 1 </var>
+    <var id="x_9_4"> 0 1 </var>
+    <var id="x_9_5"> 0 1 </var>
+    <var id="x_9_6"> 0 1 </var>
+    <var id="x_9_7"> 0 1 </var>
+    <var id="x_9_8"> 0 1 </var>
+    <var id="x_9_9"> 0 1 </var>
+</variables>
+  <constraints>    <extension id="c0">
+      <list> q0 x_0_0 q1 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c1">
+      <list> q1 x_0_1 q2 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c10">
+      <list> q10 x_0_10 q11 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c100">
+      <list> q106 x_5_4 q107 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+    <extension id="c101">
+      <list> q107 x_5_5 q108 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+    <extension id="c102">
+      <list> q108 x_5_6 q109 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+    <extension id="c103">
+      <list> q109 x_5_7 q110 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+    <extension id="c104">
+      <list> q110 x_5_8 q111 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+    <extension id="c105">
+      <list> q111 x_5_9 q112 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+    <extension id="c106">
+      <list> q112 x_5_10 q113 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+    <extension id="c107">
+      <list> q113 x_5_11 q114 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+    <extension id="c108">
+      <list> q114 x_5_12 q115 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+    <extension id="c109">
+      <list> q115 x_5_13 q116 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+    <extension id="c11">
+      <list> q11 x_0_11 q12 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c110">
+      <list> q116 x_5_14 q117 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+    <extension id="c111">
+      <list> q117 x_5_15 q118 </list>
+      <supports> (9,0,9)(1,1,9) </supports>
+    </extension>
+    <extension id="c112">
+      <list> q119 x_6_0 q120 </list>
+      <supports> (7,1,8)(7,0,7) </supports>
+    </extension>
+    <extension id="c113">
+      <list> q120 x_6_1 q121 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c114">
+      <list> q121 x_6_2 q122 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c115">
+      <list> q122 x_6_3 q123 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c116">
+      <list> q123 x_6_4 q124 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c117">
+      <list> q124 x_6_5 q125 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c118">
+      <list> q125 x_6_6 q126 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c119">
+      <list> q126 x_6_7 q127 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c12">
+      <list> q12 x_0_12 q13 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c120">
+      <list> q127 x_6_8 q128 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c121">
+      <list> q128 x_6_9 q129 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c122">
+      <list> q129 x_6_10 q130 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c123">
+      <list> q130 x_6_11 q131 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c124">
+      <list> q131 x_6_12 q132 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c125">
+      <list> q132 x_6_13 q133 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c126">
+      <list> q133 x_6_14 q134 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c127">
+      <list> q134 x_6_15 q135 </list>
+      <supports> (0,1,1)(1,0,1) </supports>
+    </extension>
+    <extension id="c128">
+      <list> q136 x_7_0 q137 </list>
+      <supports> (7,1,8)(7,0,7) </supports>
+    </extension>
+    <extension id="c129">
+      <list> q137 x_7_1 q138 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c13">
+      <list> q13 x_0_13 q14 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c130">
+      <list> q138 x_7_2 q139 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c131">
+      <list> q139 x_7_3 q140 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c132">
+      <list> q140 x_7_4 q141 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c133">
+      <list> q141 x_7_5 q142 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c134">
+      <list> q142 x_7_6 q143 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c135">
+      <list> q143 x_7_7 q144 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c136">
+      <list> q144 x_7_8 q145 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c137">
+      <list> q145 x_7_9 q146 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c138">
+      <list> q146 x_7_10 q147 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c139">
+      <list> q147 x_7_11 q148 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c14">
+      <list> q14 x_0_14 q15 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c140">
+      <list> q148 x_7_12 q149 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c141">
+      <list> q149 x_7_13 q150 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c142">
+      <list> q150 x_7_14 q151 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c143">
+      <list> q151 x_7_15 q152 </list>
+      <supports> (0,1,1)(1,0,1) </supports>
+    </extension>
+    <extension id="c144">
+      <list> q153 x_8_0 q154 </list>
+      <supports> (6,1,7)(6,0,6) </supports>
+    </extension>
+    <extension id="c145">
+      <list> q154 x_8_1 q155 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c146">
+      <list> q155 x_8_2 q156 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c147">
+      <list> q156 x_8_3 q157 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c148">
+      <list> q157 x_8_4 q158 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c149">
+      <list> q158 x_8_5 q159 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c15">
+      <list> q15 x_0_15 q16 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c150">
+      <list> q159 x_8_6 q160 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c151">
+      <list> q160 x_8_7 q161 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c152">
+      <list> q161 x_8_8 q162 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c153">
+      <list> q162 x_8_9 q163 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c154">
+      <list> q163 x_8_10 q164 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c155">
+      <list> q164 x_8_11 q165 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c156">
+      <list> q165 x_8_12 q166 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c157">
+      <list> q166 x_8_13 q167 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c158">
+      <list> q167 x_8_14 q168 </list>
+      <supports> (0,0,0)(1,0,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,0,8)(9,1,10)(6,0,6)(0,1,8)(11,1,9)(7,1,11)(10,1,5) </supports>
+    </extension>
+    <extension id="c159">
+      <list> q168 x_8_15 q169 </list>
+      <supports> (8,0,8)(0,1,8) </supports>
+    </extension>
+    <extension id="c16">
+      <list> q17 x_15_0 q18 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c160">
+      <list> q170 x_9_0 q171 </list>
+      <supports> (4,1,5)(4,0,4) </supports>
+    </extension>
+    <extension id="c161">
+      <list> q171 x_9_1 q172 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c162">
+      <list> q172 x_9_2 q173 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c163">
+      <list> q173 x_9_3 q174 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c164">
+      <list> q174 x_9_4 q175 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c165">
+      <list> q175 x_9_5 q176 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c166">
+      <list> q176 x_9_6 q177 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c167">
+      <list> q177 x_9_7 q178 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c168">
+      <list> q178 x_9_8 q179 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c169">
+      <list> q179 x_9_9 q180 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c17">
+      <list> q18 x_15_1 q19 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c170">
+      <list> q180 x_9_10 q181 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c171">
+      <list> q181 x_9_11 q182 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c172">
+      <list> q182 x_9_12 q183 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c173">
+      <list> q183 x_9_13 q184 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c174">
+      <list> q184 x_9_14 q185 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,1,5)(6,1,7)(4,0,4)(8,1,6)(5,1,8)(7,0,3) </supports>
+    </extension>
+    <extension id="c175">
+      <list> q185 x_9_15 q186 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c176">
+      <list> q187 x_10_0 q188 </list>
+      <supports> (6,1,7)(6,0,6) </supports>
+    </extension>
+    <extension id="c177">
+      <list> q188 x_10_1 q189 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c178">
+      <list> q189 x_10_2 q190 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c179">
+      <list> q190 x_10_3 q191 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c18">
+      <list> q19 x_15_2 q20 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c180">
+      <list> q191 x_10_4 q192 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c181">
+      <list> q192 x_10_5 q193 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c182">
+      <list> q193 x_10_6 q194 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c183">
+      <list> q194 x_10_7 q195 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c184">
+      <list> q195 x_10_8 q196 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c185">
+      <list> q196 x_10_9 q197 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c186">
+      <list> q197 x_10_10 q198 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c187">
+      <list> q198 x_10_11 q199 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c188">
+      <list> q199 x_10_12 q200 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c189">
+      <list> q200 x_10_13 q201 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c19">
+      <list> q20 x_15_3 q21 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c190">
+      <list> q201 x_10_14 q202 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c191">
+      <list> q202 x_10_15 q203 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c192">
+      <list> q204 x_11_0 q205 </list>
+      <supports> (5,1,6)(5,0,5) </supports>
+    </extension>
+    <extension id="c193">
+      <list> q205 x_11_1 q206 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c194">
+      <list> q206 x_11_2 q207 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c195">
+      <list> q207 x_11_3 q208 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c196">
+      <list> q208 x_11_4 q209 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c197">
+      <list> q209 x_11_5 q210 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c198">
+      <list> q210 x_11_6 q211 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c199">
+      <list> q211 x_11_7 q212 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c2">
+      <list> q2 x_0_2 q3 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c20">
+      <list> q21 x_15_4 q22 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c200">
+      <list> q212 x_11_8 q213 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c201">
+      <list> q213 x_11_9 q214 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c202">
+      <list> q214 x_11_10 q215 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c203">
+      <list> q215 x_11_11 q216 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c204">
+      <list> q216 x_11_12 q217 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c205">
+      <list> q217 x_11_13 q218 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c206">
+      <list> q218 x_11_14 q219 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,6)(7,0,4)(5,0,5)(8,1,7)(6,1,8)(4,0,4) </supports>
+    </extension>
+    <extension id="c207">
+      <list> q219 x_11_15 q220 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c208">
+      <list> q221 x_12_0 q222 </list>
+      <supports> (3,1,4)(3,0,3) </supports>
+    </extension>
+    <extension id="c209">
+      <list> q222 x_12_1 q223 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c21">
+      <list> q22 x_15_5 q23 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c210">
+      <list> q223 x_12_2 q224 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c211">
+      <list> q224 x_12_3 q225 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c212">
+      <list> q225 x_12_4 q226 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c213">
+      <list> q226 x_12_5 q227 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c214">
+      <list> q227 x_12_6 q228 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c215">
+      <list> q228 x_12_7 q229 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c216">
+      <list> q229 x_12_8 q230 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c217">
+      <list> q230 x_12_9 q231 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c218">
+      <list> q231 x_12_10 q232 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c219">
+      <list> q232 x_12_11 q233 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c22">
+      <list> q23 x_15_6 q24 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c220">
+      <list> q233 x_12_12 q234 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c221">
+      <list> q234 x_12_13 q235 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c222">
+      <list> q235 x_12_14 q236 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(2,0,2)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,0,2) </supports>
+    </extension>
+    <extension id="c223">
+      <list> q236 x_12_15 q237 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c224">
+      <list> q238 x_13_0 q239 </list>
+      <supports> (4,0,4)(4,1,1) </supports>
+    </extension>
+    <extension id="c225">
+      <list> q239 x_13_1 q240 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c226">
+      <list> q240 x_13_2 q241 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c227">
+      <list> q241 x_13_3 q242 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c228">
+      <list> q242 x_13_4 q243 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c229">
+      <list> q243 x_13_5 q244 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c23">
+      <list> q24 x_15_7 q25 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c230">
+      <list> q244 x_13_6 q245 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c231">
+      <list> q245 x_13_7 q246 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c232">
+      <list> q246 x_13_8 q247 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c233">
+      <list> q247 x_13_9 q248 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c234">
+      <list> q248 x_13_10 q249 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c235">
+      <list> q249 x_13_11 q250 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c236">
+      <list> q250 x_13_12 q251 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c237">
+      <list> q251 x_13_13 q252 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c238">
+      <list> q252 x_13_14 q253 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c239">
+      <list> q253 x_13_15 q254 </list>
+      <supports> (0,0,0)(3,1,0) </supports>
+    </extension>
+    <extension id="c24">
+      <list> q25 x_15_8 q26 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c240">
+      <list> q255 x_14_0 q256 </list>
+      <supports> (2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c241">
+      <list> q256 x_14_1 q257 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c242">
+      <list> q257 x_14_2 q258 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c243">
+      <list> q258 x_14_3 q259 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c244">
+      <list> q259 x_14_4 q260 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c245">
+      <list> q260 x_14_5 q261 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c246">
+      <list> q261 x_14_6 q262 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c247">
+      <list> q262 x_14_7 q263 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c248">
+      <list> q263 x_14_8 q264 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c249">
+      <list> q264 x_14_9 q265 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c25">
+      <list> q26 x_15_9 q27 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c250">
+      <list> q265 x_14_10 q266 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c251">
+      <list> q266 x_14_11 q267 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c252">
+      <list> q267 x_14_12 q268 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c253">
+      <list> q268 x_14_13 q269 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c254">
+      <list> q269 x_14_14 q270 </list>
+      <supports> (0,1,1)(1,0,1)(2,0,2)(2,1,0) </supports>
+    </extension>
+    <extension id="c255">
+      <list> q270 x_14_15 q271 </list>
+      <supports> (0,1,1)(1,0,1) </supports>
+    </extension>
+    <extension id="c256">
+      <list> q272 x_0_0 q273 </list>
+      <supports> (4,0,4)(4,1,1) </supports>
+    </extension>
+    <extension id="c257">
+      <list> q273 x_1_0 q274 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c258">
+      <list> q274 x_2_0 q275 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c259">
+      <list> q275 x_3_0 q276 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c26">
+      <list> q27 x_15_10 q28 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c260">
+      <list> q276 x_4_0 q277 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c261">
+      <list> q277 x_5_0 q278 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c262">
+      <list> q278 x_6_0 q279 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c263">
+      <list> q279 x_7_0 q280 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c264">
+      <list> q280 x_8_0 q281 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c265">
+      <list> q281 x_9_0 q282 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c266">
+      <list> q282 x_10_0 q283 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c267">
+      <list> q283 x_11_0 q284 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c268">
+      <list> q284 x_12_0 q285 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c269">
+      <list> q285 x_13_0 q286 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c27">
+      <list> q28 x_15_11 q29 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c270">
+      <list> q286 x_14_0 q287 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c271">
+      <list> q287 x_15_0 q288 </list>
+      <supports> (0,0,0)(3,1,0) </supports>
+    </extension>
+    <extension id="c272">
+      <list> q289 x_0_13 q290 </list>
+      <supports> (4,0,4)(4,1,1) </supports>
+    </extension>
+    <extension id="c273">
+      <list> q290 x_1_13 q291 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c274">
+      <list> q291 x_2_13 q292 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c275">
+      <list> q292 x_3_13 q293 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c276">
+      <list> q293 x_4_13 q294 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c277">
+      <list> q294 x_5_13 q295 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c278">
+      <list> q295 x_6_13 q296 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c279">
+      <list> q296 x_7_13 q297 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c28">
+      <list> q29 x_15_12 q30 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c280">
+      <list> q297 x_8_13 q298 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c281">
+      <list> q298 x_9_13 q299 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c282">
+      <list> q299 x_10_13 q300 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c283">
+      <list> q300 x_11_13 q301 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c284">
+      <list> q301 x_12_13 q302 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c285">
+      <list> q302 x_13_13 q303 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c286">
+      <list> q303 x_14_13 q304 </list>
+      <supports> (0,0,0)(1,1,2)(2,1,3)(4,0,4)(3,1,0)(4,1,1) </supports>
+    </extension>
+    <extension id="c287">
+      <list> q304 x_15_13 q305 </list>
+      <supports> (0,0,0)(3,1,0) </supports>
+    </extension>
+    <extension id="c288">
+      <list> q306 x_0_1 q307 </list>
+      <supports> (2,1,3)(2,0,2) </supports>
+    </extension>
+    <extension id="c289">
+      <list> q307 x_1_1 q308 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c29">
+      <list> q30 x_15_13 q31 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c290">
+      <list> q308 x_2_1 q309 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c291">
+      <list> q309 x_3_1 q310 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c292">
+      <list> q310 x_4_1 q311 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c293">
+      <list> q311 x_5_1 q312 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c294">
+      <list> q312 x_6_1 q313 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c295">
+      <list> q313 x_7_1 q314 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c296">
+      <list> q314 x_8_1 q315 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c297">
+      <list> q315 x_9_1 q316 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c298">
+      <list> q316 x_10_1 q317 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c299">
+      <list> q317 x_11_1 q318 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c3">
+      <list> q3 x_0_3 q4 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c30">
+      <list> q31 x_15_14 q32 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c300">
+      <list> q318 x_12_1 q319 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c301">
+      <list> q319 x_13_1 q320 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c302">
+      <list> q320 x_14_1 q321 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c303">
+      <list> q321 x_15_1 q322 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c304">
+      <list> q323 x_0_4 q324 </list>
+      <supports> (2,1,3)(2,0,2) </supports>
+    </extension>
+    <extension id="c305">
+      <list> q324 x_1_4 q325 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c306">
+      <list> q325 x_2_4 q326 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c307">
+      <list> q326 x_3_4 q327 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c308">
+      <list> q327 x_4_4 q328 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c309">
+      <list> q328 x_5_4 q329 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c31">
+      <list> q32 x_15_15 q33 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c310">
+      <list> q329 x_6_4 q330 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c311">
+      <list> q330 x_7_4 q331 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c312">
+      <list> q331 x_8_4 q332 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c313">
+      <list> q332 x_9_4 q333 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c314">
+      <list> q333 x_10_4 q334 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c315">
+      <list> q334 x_11_4 q335 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c316">
+      <list> q335 x_12_4 q336 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c317">
+      <list> q336 x_13_4 q337 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c318">
+      <list> q337 x_14_4 q338 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c319">
+      <list> q338 x_15_4 q339 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c32">
+      <list> q34 x_1_0 q35 </list>
+      <supports> (3,0,3)(3,1,0) </supports>
+    </extension>
+    <extension id="c320">
+      <list> q340 x_0_11 q341 </list>
+      <supports> (2,1,3)(2,0,2) </supports>
+    </extension>
+    <extension id="c321">
+      <list> q341 x_1_11 q342 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c322">
+      <list> q342 x_2_11 q343 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c323">
+      <list> q343 x_3_11 q344 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c324">
+      <list> q344 x_4_11 q345 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c325">
+      <list> q345 x_5_11 q346 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c326">
+      <list> q346 x_6_11 q347 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c327">
+      <list> q347 x_7_11 q348 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c328">
+      <list> q348 x_8_11 q349 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c329">
+      <list> q349 x_9_11 q350 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c33">
+      <list> q35 x_1_1 q36 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c330">
+      <list> q350 x_10_11 q351 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c331">
+      <list> q351 x_11_11 q352 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c332">
+      <list> q352 x_12_11 q353 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c333">
+      <list> q353 x_13_11 q354 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c334">
+      <list> q354 x_14_11 q355 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,3)(4,1,5)(2,0,2)(6,1,4)(3,1,6)(5,1,1) </supports>
+    </extension>
+    <extension id="c335">
+      <list> q355 x_15_11 q356 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c336">
+      <list> q357 x_0_2 q358 </list>
+      <supports> (3,1,4)(3,0,3) </supports>
+    </extension>
+    <extension id="c337">
+      <list> q358 x_1_2 q359 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c338">
+      <list> q359 x_2_2 q360 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c339">
+      <list> q360 x_3_2 q361 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c34">
+      <list> q36 x_1_2 q37 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c340">
+      <list> q361 x_4_2 q362 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c341">
+      <list> q362 x_5_2 q363 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c342">
+      <list> q363 x_6_2 q364 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c343">
+      <list> q364 x_7_2 q365 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c344">
+      <list> q365 x_8_2 q366 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c345">
+      <list> q366 x_9_2 q367 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c346">
+      <list> q367 x_10_2 q368 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c347">
+      <list> q368 x_11_2 q369 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c348">
+      <list> q369 x_12_2 q370 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c349">
+      <list> q370 x_13_2 q371 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c35">
+      <list> q37 x_1_3 q38 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c350">
+      <list> q371 x_14_2 q372 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c351">
+      <list> q372 x_15_2 q373 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c352">
+      <list> q374 x_0_3 q375 </list>
+      <supports> (3,1,4)(3,0,3) </supports>
+    </extension>
+    <extension id="c353">
+      <list> q375 x_1_3 q376 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c354">
+      <list> q376 x_2_3 q377 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c355">
+      <list> q377 x_3_3 q378 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c356">
+      <list> q378 x_4_3 q379 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c357">
+      <list> q379 x_5_3 q380 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c358">
+      <list> q380 x_6_3 q381 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c359">
+      <list> q381 x_7_3 q382 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c36">
+      <list> q38 x_1_4 q39 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c360">
+      <list> q382 x_8_3 q383 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c361">
+      <list> q383 x_9_3 q384 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c362">
+      <list> q384 x_10_3 q385 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c363">
+      <list> q385 x_11_3 q386 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c364">
+      <list> q386 x_12_3 q387 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c365">
+      <list> q387 x_13_3 q388 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c366">
+      <list> q388 x_14_3 q389 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c367">
+      <list> q389 x_15_3 q390 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c368">
+      <list> q391 x_0_9 q392 </list>
+      <supports> (3,1,4)(3,0,3) </supports>
+    </extension>
+    <extension id="c369">
+      <list> q392 x_1_9 q393 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c37">
+      <list> q39 x_1_5 q40 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c370">
+      <list> q393 x_2_9 q394 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c371">
+      <list> q394 x_3_9 q395 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c372">
+      <list> q395 x_4_9 q396 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c373">
+      <list> q396 x_5_9 q397 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c374">
+      <list> q397 x_6_9 q398 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c375">
+      <list> q398 x_7_9 q399 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c376">
+      <list> q399 x_8_9 q400 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c377">
+      <list> q400 x_9_9 q401 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c378">
+      <list> q401 x_10_9 q402 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c379">
+      <list> q402 x_11_9 q403 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c38">
+      <list> q40 x_1_6 q41 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c380">
+      <list> q403 x_12_9 q404 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c381">
+      <list> q404 x_13_9 q405 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c382">
+      <list> q405 x_14_9 q406 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c383">
+      <list> q406 x_15_9 q407 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c384">
+      <list> q408 x_0_10 q409 </list>
+      <supports> (3,1,4)(3,0,3) </supports>
+    </extension>
+    <extension id="c385">
+      <list> q409 x_1_10 q410 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c386">
+      <list> q410 x_2_10 q411 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c387">
+      <list> q411 x_3_10 q412 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c388">
+      <list> q412 x_4_10 q413 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c389">
+      <list> q413 x_5_10 q414 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c39">
+      <list> q41 x_1_7 q42 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c390">
+      <list> q414 x_6_10 q415 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c391">
+      <list> q415 x_7_10 q416 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c392">
+      <list> q416 x_8_10 q417 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c393">
+      <list> q417 x_9_10 q418 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c394">
+      <list> q418 x_10_10 q419 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c395">
+      <list> q419 x_11_10 q420 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c396">
+      <list> q420 x_12_10 q421 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c397">
+      <list> q421 x_13_10 q422 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c398">
+      <list> q422 x_14_10 q423 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,1,6)(3,0,3)(7,1,5)(4,1,7)(6,1,2) </supports>
+    </extension>
+    <extension id="c399">
+      <list> q423 x_15_10 q424 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c4">
+      <list> q4 x_0_4 q5 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c40">
+      <list> q42 x_1_8 q43 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c400">
+      <list> q425 x_0_5 q426 </list>
+      <supports> (3,1,4)(3,0,3) </supports>
+    </extension>
+    <extension id="c401">
+      <list> q426 x_1_5 q427 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c402">
+      <list> q427 x_2_5 q428 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c403">
+      <list> q428 x_3_5 q429 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c404">
+      <list> q429 x_4_5 q430 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c405">
+      <list> q430 x_5_5 q431 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c406">
+      <list> q431 x_6_5 q432 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c407">
+      <list> q432 x_7_5 q433 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c408">
+      <list> q433 x_8_5 q434 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c409">
+      <list> q434 x_9_5 q435 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c41">
+      <list> q43 x_1_9 q44 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c410">
+      <list> q435 x_10_5 q436 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c411">
+      <list> q436 x_11_5 q437 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c412">
+      <list> q437 x_12_5 q438 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c413">
+      <list> q438 x_13_5 q439 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c414">
+      <list> q439 x_14_5 q440 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c415">
+      <list> q440 x_15_5 q441 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c416">
+      <list> q442 x_0_12 q443 </list>
+      <supports> (3,1,4)(3,0,3) </supports>
+    </extension>
+    <extension id="c417">
+      <list> q443 x_1_12 q444 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c418">
+      <list> q444 x_2_12 q445 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c419">
+      <list> q445 x_3_12 q446 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c42">
+      <list> q44 x_1_10 q45 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c420">
+      <list> q446 x_4_12 q447 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c421">
+      <list> q447 x_5_12 q448 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c422">
+      <list> q448 x_6_12 q449 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c423">
+      <list> q449 x_7_12 q450 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c424">
+      <list> q450 x_8_12 q451 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c425">
+      <list> q451 x_9_12 q452 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c426">
+      <list> q452 x_10_12 q453 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c427">
+      <list> q453 x_11_12 q454 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c428">
+      <list> q454 x_12_12 q455 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c429">
+      <list> q455 x_13_12 q456 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c43">
+      <list> q45 x_1_11 q46 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c430">
+      <list> q456 x_14_12 q457 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,4)(5,0,2)(3,0,3)(6,1,5)(4,1,6)(2,0,2) </supports>
+    </extension>
+    <extension id="c431">
+      <list> q457 x_15_12 q458 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c432">
+      <list> q459 x_0_6 q460 </list>
+      <supports> (7,1,8)(7,0,7) </supports>
+    </extension>
+    <extension id="c433">
+      <list> q460 x_1_6 q461 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c434">
+      <list> q461 x_2_6 q462 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c435">
+      <list> q462 x_3_6 q463 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c436">
+      <list> q463 x_4_6 q464 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c437">
+      <list> q464 x_5_6 q465 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c438">
+      <list> q465 x_6_6 q466 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c439">
+      <list> q466 x_7_6 q467 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c44">
+      <list> q46 x_1_12 q47 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c440">
+      <list> q467 x_8_6 q468 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c441">
+      <list> q468 x_9_6 q469 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c442">
+      <list> q469 x_10_6 q470 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c443">
+      <list> q470 x_11_6 q471 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c444">
+      <list> q471 x_12_6 q472 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c445">
+      <list> q472 x_13_6 q473 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c446">
+      <list> q473 x_14_6 q474 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(4,0,4)(5,0,4)(6,1,5)(7,1,8)(9,0,6)(7,0,7)(1,0,1)(10,1,9)(8,1,10)(6,0,6) </supports>
+    </extension>
+    <extension id="c447">
+      <list> q474 x_15_6 q475 </list>
+      <supports> (0,1,1)(1,0,1) </supports>
+    </extension>
+    <extension id="c448">
+      <list> q476 x_0_7 q477 </list>
+      <supports> (7,1,8)(7,0,7) </supports>
+    </extension>
+    <extension id="c449">
+      <list> q477 x_1_7 q478 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c45">
+      <list> q47 x_1_13 q48 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c450">
+      <list> q478 x_2_7 q479 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c451">
+      <list> q479 x_3_7 q480 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c452">
+      <list> q480 x_4_7 q481 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c453">
+      <list> q481 x_5_7 q482 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c454">
+      <list> q482 x_6_7 q483 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c455">
+      <list> q483 x_7_7 q484 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c456">
+      <list> q484 x_8_7 q485 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c457">
+      <list> q485 x_9_7 q486 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c458">
+      <list> q486 x_10_7 q487 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c459">
+      <list> q487 x_11_7 q488 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c46">
+      <list> q48 x_1_14 q49 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c460">
+      <list> q488 x_12_7 q489 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c461">
+      <list> q489 x_13_7 q490 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c462">
+      <list> q490 x_14_7 q491 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,1,6) </supports>
+    </extension>
+    <extension id="c463">
+      <list> q491 x_15_7 q492 </list>
+      <supports> (0,1,1)(1,0,1) </supports>
+    </extension>
+    <extension id="c464">
+      <list> q493 x_0_8 q494 </list>
+      <supports> (6,1,7)(6,0,6) </supports>
+    </extension>
+    <extension id="c465">
+      <list> q494 x_1_8 q495 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c466">
+      <list> q495 x_2_8 q496 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c467">
+      <list> q496 x_3_8 q497 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c468">
+      <list> q497 x_4_8 q498 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c469">
+      <list> q498 x_5_8 q499 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c47">
+      <list> q49 x_1_15 q50 </list>
+      <supports> (1,1,2)(2,0,2) </supports>
+    </extension>
+    <extension id="c470">
+      <list> q499 x_6_8 q500 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c471">
+      <list> q500 x_7_8 q501 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c472">
+      <list> q501 x_8_8 q502 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c473">
+      <list> q502 x_9_8 q503 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c474">
+      <list> q503 x_10_8 q504 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c475">
+      <list> q504 x_11_8 q505 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c476">
+      <list> q505 x_12_8 q506 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c477">
+      <list> q506 x_13_8 q507 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c478">
+      <list> q507 x_14_8 q508 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(3,0,3)(4,0,3)(5,1,4)(6,1,7)(8,1,9)(6,0,6)(10,1,8)(7,1,10)(9,1,5) </supports>
+    </extension>
+    <extension id="c479">
+      <list> q508 x_15_8 q509 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c48">
+      <list> q51 x_2_0 q52 </list>
+      <supports> (1,1,2)(1,0,1) </supports>
+    </extension>
+    <extension id="c480">
+      <list> q510 x_0_14 q511 </list>
+      <supports> (1,1,2)(1,0,1) </supports>
+    </extension>
+    <extension id="c481">
+      <list> q511 x_1_14 q512 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c482">
+      <list> q512 x_2_14 q513 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c483">
+      <list> q513 x_3_14 q514 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c484">
+      <list> q514 x_4_14 q515 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c485">
+      <list> q515 x_5_14 q516 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c486">
+      <list> q516 x_6_14 q517 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c487">
+      <list> q517 x_7_14 q518 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c488">
+      <list> q518 x_8_14 q519 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c489">
+      <list> q519 x_9_14 q520 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c49">
+      <list> q52 x_2_1 q53 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c490">
+      <list> q520 x_10_14 q521 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c491">
+      <list> q521 x_11_14 q522 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c492">
+      <list> q522 x_12_14 q523 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c493">
+      <list> q523 x_13_14 q524 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c494">
+      <list> q524 x_14_14 q525 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c495">
+      <list> q525 x_15_14 q526 </list>
+      <supports> (0,0,0)(4,1,0) </supports>
+    </extension>
+    <extension id="c496">
+      <list> q527 x_0_15 q528 </list>
+      <supports> (3,0,3)(3,1,0) </supports>
+    </extension>
+    <extension id="c497">
+      <list> q528 x_1_15 q529 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c498">
+      <list> q529 x_2_15 q530 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c499">
+      <list> q530 x_3_15 q531 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c5">
+      <list> q5 x_0_5 q6 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c50">
+      <list> q53 x_2_2 q54 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c500">
+      <list> q531 x_4_15 q532 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c501">
+      <list> q532 x_5_15 q533 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c502">
+      <list> q533 x_6_15 q534 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c503">
+      <list> q534 x_7_15 q535 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c504">
+      <list> q535 x_8_15 q536 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c505">
+      <list> q536 x_9_15 q537 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c506">
+      <list> q537 x_10_15 q538 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c507">
+      <list> q538 x_11_15 q539 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c508">
+      <list> q539 x_12_15 q540 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c509">
+      <list> q540 x_13_15 q541 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c51">
+      <list> q54 x_2_3 q55 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c510">
+      <list> q541 x_14_15 q542 </list>
+      <supports> (0,1,1)(1,1,2)(3,0,3)(2,0,2)(3,1,0) </supports>
+    </extension>
+    <extension id="c511">
+      <list> q542 x_15_15 q543 </list>
+      <supports> (1,1,2)(2,0,2) </supports>
+    </extension>
+    <extension id="c52">
+      <list> q55 x_2_4 q56 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c53">
+      <list> q56 x_2_5 q57 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c54">
+      <list> q57 x_2_6 q58 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c55">
+      <list> q58 x_2_7 q59 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c56">
+      <list> q59 x_2_8 q60 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c57">
+      <list> q60 x_2_9 q61 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c58">
+      <list> q61 x_2_10 q62 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c59">
+      <list> q62 x_2_11 q63 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c6">
+      <list> q6 x_0_6 q7 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c60">
+      <list> q63 x_2_12 q64 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c61">
+      <list> q64 x_2_13 q65 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c62">
+      <list> q65 x_2_14 q66 </list>
+      <supports> (0,0,0)(1,1,2)(3,1,4)(1,0,1)(5,1,3)(2,1,5)(4,1,0) </supports>
+    </extension>
+    <extension id="c63">
+      <list> q66 x_2_15 q67 </list>
+      <supports> (0,0,0)(4,1,0) </supports>
+    </extension>
+    <extension id="c64">
+      <list> q68 x_3_0 q69 </list>
+      <supports> (6,1,7)(6,0,6) </supports>
+    </extension>
+    <extension id="c65">
+      <list> q69 x_3_1 q70 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c66">
+      <list> q70 x_3_2 q71 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c67">
+      <list> q71 x_3_3 q72 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c68">
+      <list> q72 x_3_4 q73 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c69">
+      <list> q73 x_3_5 q74 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c7">
+      <list> q7 x_0_7 q8 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c70">
+      <list> q74 x_3_6 q75 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c71">
+      <list> q75 x_3_7 q76 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c72">
+      <list> q76 x_3_8 q77 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c73">
+      <list> q77 x_3_9 q78 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c74">
+      <list> q78 x_3_10 q79 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c75">
+      <list> q79 x_3_11 q80 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c76">
+      <list> q80 x_3_12 q81 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c77">
+      <list> q81 x_3_13 q82 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c78">
+      <list> q82 x_3_14 q83 </list>
+      <supports> (0,0,0)(1,1,0)(2,1,1)(3,1,2)(4,1,3)(5,1,4)(6,1,7)(8,0,8)(6,0,6)(9,0,8)(7,1,9)(8,1,5) </supports>
+    </extension>
+    <extension id="c79">
+      <list> q83 x_3_15 q84 </list>
+      <supports> (0,0,0)(1,1,0) </supports>
+    </extension>
+    <extension id="c8">
+      <list> q8 x_0_8 q9 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c80">
+      <list> q85 x_4_0 q86 </list>
+      <supports> (7,1,8)(7,0,7) </supports>
+    </extension>
+    <extension id="c81">
+      <list> q86 x_4_1 q87 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c82">
+      <list> q87 x_4_2 q88 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c83">
+      <list> q88 x_4_3 q89 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c84">
+      <list> q89 x_4_4 q90 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c85">
+      <list> q90 x_4_5 q91 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c86">
+      <list> q91 x_4_6 q92 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c87">
+      <list> q92 x_4_7 q93 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c88">
+      <list> q93 x_4_8 q94 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c89">
+      <list> q94 x_4_9 q95 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c9">
+      <list> q9 x_0_9 q10 </list>
+      <supports> (0,0,0) </supports>
+    </extension>
+    <extension id="c90">
+      <list> q95 x_4_10 q96 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c91">
+      <list> q96 x_4_11 q97 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c92">
+      <list> q97 x_4_12 q98 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c93">
+      <list> q98 x_4_13 q99 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c94">
+      <list> q99 x_4_14 q100 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(6,1,5)(6,0,6)(7,1,8)(9,1,10)(7,0,7)(1,0,1)(11,1,9)(8,1,11)(10,0,6) </supports>
+    </extension>
+    <extension id="c95">
+      <list> q100 x_4_15 q101 </list>
+      <supports> (0,1,1)(1,0,1) </supports>
+    </extension>
+    <extension id="c96">
+      <list> q102 x_5_0 q103 </list>
+      <supports> (7,1,8)(7,0,7) </supports>
+    </extension>
+    <extension id="c97">
+      <list> q103 x_5_1 q104 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+    <extension id="c98">
+      <list> q104 x_5_2 q105 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+    <extension id="c99">
+      <list> q105 x_5_3 q106 </list>
+      <supports> (0,1,1)(2,1,0)(3,1,2)(4,1,3)(5,1,4)(5,0,5)(6,0,5)(7,1,8)(9,0,9)(10,1,11)(7,0,7)(1,1,9)(12,1,10)(8,1,12)(11,1,6) </supports>
+    </extension>
+  </constraints>
+</instance>
