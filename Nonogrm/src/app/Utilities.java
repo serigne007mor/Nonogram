@@ -75,11 +75,11 @@ class Utilities {
         // Get the root node
         Element root = doc.getRootElement();
         // Get all child nodes
-        Iterator iterator = root.elementIterator();
+        Iterator<?> iterator = root.elementIterator();
         while (iterator.hasNext()) {
             Element e = (Element) iterator.next();
             // print content based on the element name
-            result+= e.asXML();
+            result += e.asXML();
         }
         return result;
     }
