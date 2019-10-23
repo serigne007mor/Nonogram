@@ -70,17 +70,12 @@ class Utilities {
 
     public static String XMLReader(String path) throws DocumentException {
         String result = "";
-        // Create SAXReader
         SAXReader reader = new SAXReader();
-        // Read the document object
         Document doc = reader.read(new File(path));
-        // Get the root node
         Element root = doc.getRootElement();
-        // Get all child nodes
         Iterator<?> iterator = root.elementIterator();
         while (iterator.hasNext()) {
             Element e = (Element) iterator.next();
-            // print content based on the element name
             result += e.asXML();
         }
         return result;
