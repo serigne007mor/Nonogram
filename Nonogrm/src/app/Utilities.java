@@ -6,6 +6,8 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -82,5 +84,14 @@ class Utilities {
             result += e.asXML();
         }
         return result;
+    }
+
+    public static int numberOfLine(String file) {
+        Matcher m = Pattern.compile("\r\n|\r|\n").matcher(file);
+        int lines = 1;
+        while (m.find()) {
+            lines++;
+        }
+        return lines;
     }
 }
