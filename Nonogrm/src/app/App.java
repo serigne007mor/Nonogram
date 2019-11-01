@@ -5,6 +5,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+import org.dom4j.Document;
+import org.dom4j.DocumentException;
+import org.dom4j.io.SAXReader;
+import org.xcsp.*;
+
 public class App {
     public static void main(String[] args) throws Exception {
         String path = "instances/small/test-001-ternary.xml";
@@ -13,7 +18,7 @@ public class App {
         while (s.hasNext()) {
             line = s.nextLine();
             if (line.contains("<var")) {
-                System.out.println(line);
+
             }
         }
         s.close();
@@ -21,6 +26,13 @@ public class App {
         variable.put("q0", new String[] { "1" });
         variable.put("q1", new String[] { "0", "1", "2", "3", "4" });
         variable.put("x_0_0", new String[] { "0", "1" });
-        // String[] diff = Utilities.setDifference(variable.get("q1"), variable.get("x_0_0"));
+        // String[] diff = Utilities.setDifference(variable.get("q1"),
+        // variable.get("x_0_0"));
+    }
+
+    public static Document parse(String url) throws DocumentException {
+        SAXReader reader = new SAXReader();
+        Document document = reader.read(url);
+        return document;
     }
 }
