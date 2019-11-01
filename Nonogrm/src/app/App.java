@@ -5,9 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-import org.dom4j.Document;
-import org.dom4j.DocumentException;
-import org.dom4j.io.SAXReader;
 import org.xcsp.*;
 
 public class App {
@@ -30,9 +27,4 @@ public class App {
         // variable.get("x_0_0"));
     }
 
-    public static Document parse(String url) throws DocumentException {
-        SAXReader reader = new SAXReader();
-        Document document = reader.read(url);
-        return document;
-    }
 }
