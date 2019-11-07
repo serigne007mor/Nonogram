@@ -18,7 +18,7 @@ public class App {
 
             }
         }
-        s.close();
+        s.close();//something
         Map<String, String[]> variable = new HashMap<String, String[]>();
         variable.put("q0", new String[] { "1" });
         variable.put("q1", new String[] { "0", "1", "2", "3", "4" });
