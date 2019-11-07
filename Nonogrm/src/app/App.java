@@ -9,7 +9,7 @@ import org.xcsp.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        String path = "instances/small/test-001-ternary.xml";
+        String path = "Nonogrm/instances/small/test-001-ternary.xml";
         Scanner s = new Scanner(new File(path));
         String line;
         while (s.hasNext()) {
@@ -18,7 +18,8 @@ public class App {
 
             }
         }
-        s.close();//something
+        s.close();
+        // here is a comment
         Map<String, String[]> variable = new HashMap<String, String[]>();
         variable.put("q0", new String[] { "1" });
         variable.put("q1", new String[] { "0", "1", "2", "3", "4" });
