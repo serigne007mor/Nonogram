@@ -11,6 +11,7 @@ import org.xcsp.parser.entries.XVariables.XVarInteger;
 
 class XCSP3 implements XCallbacks2 {
 
+
     public static void main(String[] args) throws Exception {
         String path = "Nonogrm/instances/small/test-001-ternary.xml";
         XCSP3 x = new XCSP3(path);
@@ -63,7 +64,7 @@ class XCSP3 implements XCallbacks2 {
             // Note that most of the time, tuples are already cleaned by the parser
 
         }
-        extension(trVars(list), tuples/*, positive*/);
+        new extension(trVars(list), tuples/*, positive*/);
     }
 
     public XCSP3(String fileName) throws Exception {
