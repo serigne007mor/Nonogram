@@ -1,14 +1,14 @@
 package app;
 
 class VarInteger {
-    String[] value;
     String id;
+    int[] value;
 
-    public String[] getValue() {
+    public int[] getValue() {
         return value;
     }
 
-    public void setValue(String[] value) {
+    public void setValue(int[] value) {
         this.value = value;
     }
 
@@ -20,7 +20,7 @@ class VarInteger {
         this.id = id;
     }
 
-    public VarInteger(String[] value, String id) {
+    public VarInteger(String id, int[] value) {
         this.value = value;
         this.id = id;
     }
