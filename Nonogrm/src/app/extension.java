@@ -1,6 +1,8 @@
 package app;
 
-class extension{
+import java.util.Arrays;
+
+class Extension{
     VarInteger []extension;
     int [][] supports;
 
@@ -20,9 +22,14 @@ class extension{
         this.supports = supports;
     }
 
-    public extension(VarInteger[] extension, int[][] supports) {
+    public Extension(VarInteger[] extension, int[][] supports) {
         this.extension = extension;
         this.supports = supports;
     }
+
+	@Override
+	public String toString() {
+		return "Extension [extension=" + Arrays.toString(extension) + ", supports=" + Arrays.toString(supports) + "]";
+	}
 
 }

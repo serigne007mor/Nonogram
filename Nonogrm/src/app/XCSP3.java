@@ -1,6 +1,8 @@
 package app;
 
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
@@ -13,8 +15,14 @@ class XCSP3 implements XCallbacks2 {
 
 
     public static void main(String[] args) throws Exception {
+        // this main fuction is just to test the funcions in this class
         String path = "Nonogrm/instances/small/test-001-ternary.xml";
         XCSP3 x = new XCSP3(path);
+        Collection<VarInteger> xcsp3Var  = x.getMapVar();
+        Set<VarInteger> xcsp3Set = new HashSet<VarInteger>(xcsp3Var);
+        Set<Extension> extensionsSet = x.extensionSet;
+
+        System.out.println(extensionsSet.toString());
     }
 
     private Implem implem = new Implem(this);
@@ -25,6 +33,8 @@ class XCSP3 implements XCallbacks2 {
     }
 
     private Map<XVarInteger, VarInteger> mapVar = new LinkedHashMap<>();
+    private Set<Extension> extensionSet = new HashSet<Extension>() {
+    };
 
     @Override
     public void buildVarInteger(XVarInteger xx, int minValue, int maxValue) {
@@ -52,6 +62,10 @@ class XCSP3 implements XCallbacks2 {
     @Override
     public void buildCtrExtension(String id, XVarInteger[] list, int[][] tuples, boolean positive,
             Set<TypeFlag> flags) {
+
+        if (positive != true){
+            //TODO thorw error
+        }
         if (flags.contains(TypeFlag.STARRED_TUPLES)) {
             // Can you manage short tables ? i.e., tables with tuples containing symbol * ?
             // If not, throw an exception.
@@ -64,10 +78,20 @@ class XCSP3 implements XCallbacks2 {
             // Note that most of the time, tuples are already cleaned by the parser
 
         }
-        new extension(trVars(list), tuples/*, positive*/);
+        Extension extension = new Extension(trVars(list), tuples/*, positive*/);
+        extensionSet.add(extension);
     }
 
     public XCSP3(String fileName) throws Exception {
         loadInstance(fileName);
     }
+
+	public Collection<VarInteger> getMapVar() {
+		return mapVar.values();
+	}
+
+    public Set<Extension> getExtensionSet() {
+        return extensionSet;
+    }
+
 }

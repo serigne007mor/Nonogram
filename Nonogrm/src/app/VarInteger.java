@@ -1,5 +1,7 @@
 package app;
 
+import java.util.Arrays;
+
 class VarInteger {
     String id;
     int[] value;
@@ -24,4 +26,10 @@ class VarInteger {
         this.value = value;
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "VarInteger [id=" + id + ", value=" + Arrays.toString(value) + "]";
+    }
+
 }
