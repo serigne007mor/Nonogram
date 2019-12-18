@@ -72,10 +72,7 @@ class XCSP3 implements XCallbacks2 {
 
         }
         if (flags.contains(TypeFlag.UNCLEAN_TUPLES)) {
-            // You have possibly to clean tuples here, in order to remove invalid tuples.
-            // A tuple is invalid if it contains a value a for a variable x, not present in
-            // dom(x)
-            // Note that most of the time, tuples are already cleaned by the parser
+            //TODO throw error
 
         }
         Extension extension = new Extension(trVars(list), tuples/*, positive*/);
