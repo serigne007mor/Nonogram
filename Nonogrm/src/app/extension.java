@@ -3,15 +3,15 @@ package app;
 import java.util.Arrays;
 
 class Extension{
-    VarInteger []extension;
+    VarInteger []list;
     int [][] supports;
 
-    public VarInteger[] getExtension() {
-        return extension;
+    public VarInteger[] getList() {
+        return list;
     }
 
-    public void setExtension(VarInteger[] extension) {
-        this.extension = extension;
+    public void setList(VarInteger[] list) {
+        this.list = list;
     }
 
     public int[][] getSupports() {
@@ -22,14 +22,14 @@ class Extension{
         this.supports = supports;
     }
 
-    public Extension(VarInteger[] extension, int[][] supports) {
-        this.extension = extension;
+    public Extension(VarInteger[] list, int[][] supports) {
+        this.list = list;
         this.supports = supports;
     }
 
 	@Override
 	public String toString() {
-		return "Extension [extension=" + Arrays.toString(extension) + ", supports=" + Arrays.toString(supports) + "]";
+		return "Extension [extension=" + Arrays.toString(list) + ", supports=" + Arrays.toString(supports) + "]";
 	}
 
 }
