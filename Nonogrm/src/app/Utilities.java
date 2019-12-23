@@ -1,18 +1,10 @@
 package app;
 
-import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import org.dom4j.Document;
-import org.dom4j.DocumentException;
-import org.dom4j.Element;
-import org.dom4j.io.SAXReader;
 
 class Utilities {
     public static String readFileAsString(String fileName) throws Exception {
@@ -66,32 +58,5 @@ class Utilities {
             diffs.add(sortedArray[index]);
             index++;
         }
-    }
-
-    public static String XMLReader(String path) throws DocumentException {
-        String result = "";
-        // Create SAXReader
-        SAXReader reader = new SAXReader();
-        // Read the document object
-        Document doc = reader.read(new File(path));
-        // Get the root node
-        Element root = doc.getRootElement();
-        // Get all child nodes
-        Iterator<?> iterator = root.elementIterator();
-        while (iterator.hasNext()) {
-            Element e = (Element) iterator.next();
-            // print content based on the element name
-            result += e.asXML();
-        }
-        return result;
-    }
-
-    public static int numberOfLine(String file) {
-        Matcher m = Pattern.compile("\r\n|\r|\n").matcher(file);
-        int lines = 1;
-        while (m.find()) {
-            lines++;
-        }
-        return lines;
     }
 }

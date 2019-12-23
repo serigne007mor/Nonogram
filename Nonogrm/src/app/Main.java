@@ -12,7 +12,7 @@ public class Main {
         XCSP3 nonogram = new XCSP3(path);
         Collection<VarInteger> xcsp3Var = nonogram.getMapVar();
         Set<VarInteger> cspVarSet = new HashSet<VarInteger>(xcsp3Var);
-        Set<Extension> extensionsSet = nonogram.getExtensionSet();
+        // Set<Extension> extensionsSet = nonogram.getExtensionSet();
 
         Map<VarInteger, SatVar[]> satTerm = new HashMap<VarInteger, SatVar[]>();
         int j = 0;
@@ -27,8 +27,6 @@ public class Main {
             satTerm.put(x, sat);
             j++;
         }
-        // System.out.println(satTerm.toString());
-
     }
 
 }

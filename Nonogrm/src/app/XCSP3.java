@@ -13,16 +13,17 @@ import org.xcsp.parser.entries.XVariables.XVarInteger;
 
 class XCSP3 implements XCallbacks2 {
 
-    public static void main(String[] args) throws Exception {
-        // this main fuction is just to test the funcions in this class
-        String path = "Nonogrm/instances/small/test-001-ternary.xml";
-        XCSP3 x = new XCSP3(path);
-        Collection<VarInteger> xcsp3Var = x.getMapVar();
-        Set<VarInteger> xcsp3Set = new HashSet<VarInteger>(xcsp3Var);
-        Set<Extension> extensionsSet = x.extensionSet;
+    // public static void main(String[] args) throws Exception {
+    //     // this main fuction is just to test the funcions in this class
+    //     String path = "Nonogrm/instances/small/test-001-ternary.xml";
+    //     XCSP3 x = new XCSP3(path);
+    //     Collection<VarInteger> xcsp3Var = x.getMapVar();
+    //     Set<VarInteger> xcsp3Set = new HashSet<VarInteger>(xcsp3Var);
+    //     Set<Extension> extensionsSet = x.extensionSet;
 
-        System.out.println(extensionsSet.toString());
-    }
+
+    //     System.out.println(extensionsSet.toString()+""+xcsp3Set);
+    // }
 
     private Implem implem = new Implem(this);
 
