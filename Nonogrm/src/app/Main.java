@@ -27,6 +27,7 @@ public class Main {
             satTerm.put(x, sat);
             j++;
         }
+        System.out.println(satTerm.toString());
     }
 
 }
