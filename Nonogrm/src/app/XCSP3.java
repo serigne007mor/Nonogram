@@ -88,7 +88,7 @@ class XCSP3 implements XCallbacks2 {
             }
 
         }
-        Extension extension = new Extension(trVars(list), tuples/*, positive*/);
+        Extension extension = new Extension(id, trVars(list), tuples/*, positive*/);
         extensionSet.add(extension);
     }
 

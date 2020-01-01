@@ -28,7 +28,7 @@ class SatVar {
 
     @Override
     public String toString() {
-        return "SatVar [id=" + id + ", value=" + value + "]";
+        return "SatVar [SatId=" + id + ", SatValue=" + value + "]";
     }
 
 }

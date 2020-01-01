@@ -29,7 +29,8 @@ class VarInteger {
 
     @Override
     public String toString() {
-        return "VarInteger [id=" + id + ", value=" + Arrays.toString(value) + "]";
+        // return "VarInteger [VarId=" + id + ", VarValue=" + Arrays.toString(value) + "]";
+        return "VarId=" + id + ", VarValue=" + Arrays.toString(value) ;
     }
 
 }
