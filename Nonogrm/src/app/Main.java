@@ -16,7 +16,7 @@ public class Main {
         Set<VarInteger> cspVarSet = new HashSet<VarInteger>(xcsp3Var);
         Set<Extension> extensionsSet = nonogram.getExtensionSet();
 
-        Map<VarInteger, List<SatVar>> satTerm = new HashMap<VarInteger, List<SatVar>>();
+        Map<VarInteger, List<String>> satTerm = new HashMap<VarInteger, List<String>>();
         int j = 0;
         Map<Integer, Integer> hel = new HashMap<Integer, Integer>();
         hel.put(1, 2);
@@ -24,9 +24,9 @@ public class Main {
         for(VarInteger x: cspVarSet){
             int lenght = x.getValue().length;
             // System.out.println(x.id+" is:  "+lenght);
-            List<SatVar> sat = new ArrayList<>();
+            List<String> sat = new ArrayList<>();
             for(int i = 0; i <lenght ;i++){
-            sat.add(i, new SatVar("t"+j+""+i, false));
+            sat.add(i, "t"+j+""+i);
 
             }
             // System.out.print(sat.toString());

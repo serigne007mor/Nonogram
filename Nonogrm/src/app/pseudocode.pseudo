@@ -1,0 +1,4 @@
+foreach (i in iterable) {
+    Generate one clause (Vi,a1) || (Vi, a2)|| ... || (Vi, a2)
+
+}
