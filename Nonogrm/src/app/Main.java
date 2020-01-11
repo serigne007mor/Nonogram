@@ -25,6 +25,7 @@ public class Main {
         hel.put(1, 2);
         hel.put(3, 4);
         int j = 0;
+        // get variables
         for (VarInteger x : cspVarSet) {
             int lenght = x.getValue().length;
             List<String> sat = new ArrayList<>();
@@ -38,9 +39,22 @@ public class Main {
             j++;
         }
         // System.out.println(satTerm.toString());
-        output+= negation;
+        output += negation;
         System.out.println(output);
         // System.out.println(negation);
+
+        //get extentions
+        Map<String, int [][]> allSupport = new HashMap<String, int[][]>();
+        for(Extension x : extensionsSet){
+            for (int i = 0; i < 3 ; i ++){
+                //TODO: find a way to get all different combinations 
+            }
+            if(Utilities.isRow(x.supports[0][0],allSupport.get(x.getId()) )){
+                Utilities.removeRow(allSupport.get(x.getId()), x.supports[0][0]);
+                //TODO change methods to accept row as an array
+            }
+
+        }
 
         // write to the file
         PrintWriter satFile = new PrintWriter(outputPath, "UTF-8");
