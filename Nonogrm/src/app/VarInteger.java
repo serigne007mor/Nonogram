@@ -10,7 +10,7 @@ class VarInteger {
         return value;
     }
 
-    public void setValue(int[] value) {
+    public void setValue(final int[] value) {
         this.value = value;
     }
 
@@ -18,11 +18,11 @@ class VarInteger {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(final String id) {
         this.id = id;
     }
 
-    public VarInteger(String id, int[] value) {
+    public VarInteger(final String id, final int[] value) {
         this.value = value;
         this.id = id;
     }

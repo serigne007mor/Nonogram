@@ -5,7 +5,7 @@ class SatVar {
     String id;
     Boolean value;
 
-    public SatVar(String id, Boolean value) {
+    public SatVar(final String id, final Boolean value) {
         this.id = id;
         this.value = value;
     }
@@ -14,7 +14,7 @@ class SatVar {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(final String id) {
         this.id = id;
     }
 
@@ -22,7 +22,7 @@ class SatVar {
         return value;
     }
 
-    public void setValue(Boolean value) {
+    public void setValue(final Boolean value) {
         this.value = value;
     }
 

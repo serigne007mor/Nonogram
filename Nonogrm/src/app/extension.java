@@ -11,7 +11,7 @@ class Extension{
         return list;
     }
 
-    public void setList(VarInteger[] list) {
+    public void setList(final VarInteger[] list) {
         this.list = list;
     }
 
@@ -19,7 +19,7 @@ class Extension{
         return supports;
     }
 
-    public void setSupports(int[][] supports) {
+    public void setSupports(final int[][] supports) {
         this.supports = supports;
     }
 
@@ -29,7 +29,7 @@ class Extension{
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(final String id) {
         this.id = id;
     }
 
@@ -39,7 +39,7 @@ class Extension{
                 + "]";
     }
 
-    public Extension(String id, VarInteger[] list, int[][] supports) {
+    public Extension(final String id, final VarInteger[] list, final int[][] supports) {
         this.id = id;
         this.list = list;
         this.supports = supports;

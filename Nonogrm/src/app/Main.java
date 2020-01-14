@@ -19,6 +19,10 @@ public class Main {
         Collection<VarInteger> xcsp3Var = nonogram.getMapVar();
         Set<VarInteger> cspVarSet = new HashSet<VarInteger>(xcsp3Var);
         Set<Extension> extensionsSet = nonogram.getExtensionSet();
+        int n = extensionsSet.size();
+        List<Extension> extensionList = new ArrayList<Extension>(n);
+        for (Extension x : extensionsSet)
+            extensionList.add(x);
 
         Map<VarInteger, List<String>> satTerm = new HashMap<VarInteger, List<String>>();
         Map<Integer, Integer> hel = new HashMap<Integer, Integer>();
@@ -43,17 +47,13 @@ public class Main {
         System.out.println(output);
         // System.out.println(negation);
 
-        //get extentions
-        Map<String, int [][]> allSupport = new HashMap<String, int[][]>();
-        for(Extension x : extensionsSet){
-            for (int i = 0; i < 3 ; i ++){
-                //TODO: find a way to get all different combinations 
-            }
-            if(Utilities.isRow(x.supports[0][0],allSupport.get(x.getId()) )){
-                Utilities.removeRow(allSupport.get(x.getId()), x.supports[0][0]);
-                //TODO change methods to accept row as an array
-            }
+        // get extentions
+        Map<String, int[][]> allSupport = new HashMap<String, int[][]>();
 
+        for (int i = 0; i < n ; i ++){
+            if( i == 0){
+                
+            }
         }
 
         // write to the file
