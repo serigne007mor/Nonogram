@@ -48,11 +48,11 @@ public class Main {
         // System.out.println(negation);
 
         // get extentions
-        Map<String, int[][]> allSupport = new HashMap<String, int[][]>();
+        // Map<String, int[][]> allSupport = new HashMap<String, int[][]>();
 
         for (int i = 0; i < n ; i ++){
             if( i == 0){
-                
+                // allSupport.get(extensionList.get(i).supports) 
             }
         }
 
