@@ -12,10 +12,11 @@ import java.util.Set;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        String path = "instances/small/test-001-ternary.xml";
-        String outputPath = "output/minisatFile";
+        String path = "Nonogrm/instances/small/test-001-ternary.xml";
+        String outputPath = "Nonogrm/output/minisatFile";
         String output = "";
         String negation = "";
+        int lineCount = 0;
         List<String> l = new ArrayList<>();
         XCSP3 nonogram = new XCSP3(path);
         Collection<VarInteger> xcsp3Var = nonogram.getMapVar();
@@ -41,6 +42,7 @@ public class Main {
                 output += "t" + j + "" + i + " ";
             }
             output += "0\n";
+            lineCount++;
             satTerm.put(x.id, sat);
             j++;
         }
@@ -56,6 +58,7 @@ public class Main {
         });
         for (int i = 0; i < l.size() ; i ++){
             negation+=l.get(i);
+            lineCount++;
         }
         // System.out.println(satTerm.toString());
         output += negation;
@@ -64,17 +67,17 @@ public class Main {
 
         // get extentions
         // Map<String, int[][]> allSupport = new HashMap<String, int[][]>();
+        List<Extension> supportList = new ArrayList<Extension>(n);
+        for (Extension extension : extensionList) {
+            for (int i = 0; i < 3 ;i++){
 
-        for (int i = 0; i < n ; i ++){
-            if( i == 0){
-                // allSupport.get(extensionList.get(i).supports) 
             }
         }
 
         // write to the file
         PrintWriter satFile = new PrintWriter(outputPath, "UTF-8");
         satFile.println("c this is nonogram instance");
-        satFile.println("p cnf 680");
+        satFile.println("p cnf 680"+lineCount);
         satFile.print(output.trim());
         satFile.close();
 
