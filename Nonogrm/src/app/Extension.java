@@ -4,15 +4,15 @@ import java.util.Arrays;
 
 class Extension{
     String id;
-    VarInteger []list;
+    VarInteger []VarIntegerList;
     int [][] supports;
 
     public VarInteger[] getList() {
-        return list;
+        return VarIntegerList;
     }
 
     public void setList(final VarInteger[] list) {
-        this.list = list;
+        this.VarIntegerList = list;
     }
 
     public int[][] getSupports() {
@@ -35,13 +35,13 @@ class Extension{
 
     @Override
     public String toString() {
-        return "Extension [ExtensionId=" + id + ", ExtensionList=" + Arrays.toString(list) + ", ExtensionSupports=" + Arrays.deepToString(supports)
+        return "Extension [ExtensionId=" + id + ", ExtensionList=" + Arrays.toString(VarIntegerList) + ", ExtensionSupports=" + Arrays.deepToString(supports)
                 + "]";
     }
 
     public Extension(final String id, final VarInteger[] list, final int[][] supports) {
         this.id = id;
-        this.list = list;
+        this.VarIntegerList = list;
         this.supports = supports;
     }
 
