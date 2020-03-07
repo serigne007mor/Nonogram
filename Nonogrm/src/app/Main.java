@@ -32,7 +32,6 @@ public class Main {
         Map<Integer, Integer> hel = new HashMap<Integer, Integer>();
         hel.put(1, 2);
         hel.put(3, 4);
-        int j = 0;
         int satVariable = 1;
         // get variables
         for (VarInteger x : cspVarSet) {
@@ -40,16 +39,15 @@ public class Main {
             List<String> sat = new ArrayList<>();
             for (int i = 0; i < lenght; i++) {
                 // sat.add(i, "t" + j + "" + i);
-                sat.add(""+satVariable);
+                sat.add("" + satVariable);
                 // negation += "t" + j + "" + i + " -t" + j + "" + i + " 0\n";
                 // output += "t" + j + "" + i + " ";
-                output += ""+ satVariable+ " ";
+                output += "" + satVariable + " ";
                 satVariable++;
             }
             output += "0\n";
             lineCount++;
             satTerm.put(x.id, sat);
-            j++;
         }
         satTerm.forEach((k, v) -> {
             // List<String> v = satTerm.get("q1");
@@ -72,7 +70,7 @@ public class Main {
 
         // get extentions
         boolean isSupport = false;
-        Map<String, int[][]> allSupport = new HashMap<String, int[][]>();
+        // Map<String, int[][]> allSupport = new HashMap<String, int[][]>();
         List<int[][]> supportList = new ArrayList<int [][]>(n);
         List<List<List<String>>> supportList2 = new ArrayList<List<List<String>>>(n);
         for (Extension extension : extensionList) {
