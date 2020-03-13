@@ -14,7 +14,8 @@ public class Main {
     public static void main(String[] args) throws Exception {
         // path of the input and output
         String path = "instances/small/test-001-ternary.xml";
-        String outputPath = "output/minisatFile";
+        // String path = "instances/big/Nonogram-001-regular-table.xml";
+        String outputPath = "output/minisatFile.cnf";
         // variable containing the output String
         String output = "";
         // variable containing the XOR in order to select only one option per box
@@ -61,7 +62,7 @@ public class Main {
             for (int i = 0; i < v.size(); i++) {
                 for (int p = i + 1; p < v.size(); p++) {
                     // negation += "-" + v.get(i) + " -" + v.get(p);
-                    l.add("-" + v.get(i) + " -" + v.get(p) + "\n");
+                    l.add("-" + v.get(i) + " -" + v.get(p) + " 0\n");
                 }
 
             }
@@ -71,9 +72,9 @@ public class Main {
             lineCount++;
         }
         // System.out.println(satTerm.toString());
-        output += "c the next lines contains the XOR";
+        // output += "c the next lines contains the XOR\n";
         output += negation;
-        System.out.println(output);
+        // System.out.println(output);
         // System.out.println(negation);
 
         // get extentions
@@ -95,6 +96,7 @@ public class Main {
                         supp.add(satTerm.get(extension.VarIntegerList[0].id).get(i));
                         supp.add(satTerm.get(extension.VarIntegerList[1].id).get(k));
                         supp.add(satTerm.get(extension.VarIntegerList[2].id).get(m));
+                        // System.out.println("x");
                         int support[] = { extension.VarIntegerList[0].value[i], extension.VarIntegerList[1].value[k],
                                 extension.VarIntegerList[2].value[m] };
                         for (int o = 0; o < extension.supports.length; o++) {
@@ -118,16 +120,17 @@ public class Main {
             supportList.add(extensionSupport);
             supportList2.add(extentSupport);
         }
-        output += "c The next lines contain the noSupports";
+        // output += "c The next lines contain the noSupports\n";
         output += noSupports;
-        output += "c EOF";
+        // output += "c EOF\n";
         // System.out.println(supportList2.get(0).get(0).get(0));
         // System.out.println(lineCount);
 
         // write to the file
+        satVariable--;
         PrintWriter satFile = new PrintWriter(outputPath, "UTF-8");
         satFile.println("c this is nonogram instance");
-        satFile.println("p cnf 680 " + lineCount);
+        satFile.println("p cnf "+ satVariable-- + " " + lineCount);
         satFile.print(output.trim());
         satFile.close();
 
