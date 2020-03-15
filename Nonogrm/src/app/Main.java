@@ -12,6 +12,7 @@ import java.util.Set;
 public class Main {
 
     public static void main(String[] args) throws Exception {
+        int test = 0;
         // path of the input and output
         String path = "instances/small/test-001-ternary.xml";
         // String path = "instances/big/Nonogram-001-regular-table.xml";
@@ -93,20 +94,32 @@ public class Main {
                 for (int k = 0; k < extension.VarIntegerList[1].value.length; k++) {
                     for (int m = 0; m < extension.VarIntegerList[2].value.length; m++) {
                         List<String> supp = new ArrayList<String>();
-                        supp.add(satTerm.get(extension.VarIntegerList[0].id).get(i));
-                        supp.add(satTerm.get(extension.VarIntegerList[1].id).get(k));
-                        supp.add(satTerm.get(extension.VarIntegerList[2].id).get(m));
+                        supp.add("-"+satTerm.get(extension.VarIntegerList[0].id).get(i));
+                        supp.add("-"+satTerm.get(extension.VarIntegerList[1].id).get(k));
+                        supp.add("-"+satTerm.get(extension.VarIntegerList[2].id).get(m));
                         // System.out.println("x");
+                        // support gets a possible no good in the form (1,1,1)
                         int support[] = { extension.VarIntegerList[0].value[i], extension.VarIntegerList[1].value[k],
                                 extension.VarIntegerList[2].value[m] };
+                        
                         for (int o = 0; o < extension.supports.length; o++) {
-                            if (support == extension.supports[o]) {
+                            // System.out.println(support+"   "+extension.supports[o][2]);
+                            if (support[0] == extension.supports[o][0] && support[1] == extension.supports[o][1] && support[2] == extension.supports[o][2]) {
                                 isSupport = true;
+                                System.out.println("x");
                             }
+                            // else{
+                            //     isSupport = false;
+                            //     System.out.println("naaahhh");
+                            // }
+                        }
+                        if (isSupport){
+                            test++;
                         }
                         if (!isSupport) {
                             extensionSupport[track] = support;
                             for (int o = 0; o < supp.size(); o++) {
+                                System.out.println("yepp");
                                 noSupports += supp.get(o) + " ";
                             }
                             noSupports += "0\n";
@@ -114,12 +127,14 @@ public class Main {
                             extentSupport.add(supp);
                             track++;
                         }
+                        isSupport=false;
                     }
                 }
             }
             supportList.add(extensionSupport);
             supportList2.add(extentSupport);
         }
+        System.out.println(test);
         // output += "c The next lines contain the noSupports\n";
         output += noSupports;
         // output += "c EOF\n";
