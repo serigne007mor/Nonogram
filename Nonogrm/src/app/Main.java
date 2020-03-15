@@ -11,13 +11,9 @@ import java.util.Set;
 
 public class Main {
 
-    public static void main(String[] args) throws Exception {
-        int test = 0;
-        // path of the input and output
-        // String path = "instances/small/test-001-ternary.xml";
-        String path = "instances/big/Nonogram-001-regular-table.xml";
-        String outputPath = "output/minisatFile.cnf";
+    public static void createSat(String inputPath, String outputPath) throws Exception {
         // variable containing the output String
+        // int test = 0;
         String output = "";
         // variable containing the XOR in order to select only one option per box
         String negation = "";
@@ -26,7 +22,7 @@ public class Main {
         // Just a holder
         List<String> l = new ArrayList<>();
         // Import the monogram 27 to 35
-        XCSP3 nonogram = new XCSP3(path);
+        XCSP3 nonogram = new XCSP3(inputPath);
         Collection<VarInteger> xcsp3Var = nonogram.getMapVar();
         Set<VarInteger> cspVarSet = new HashSet<VarInteger>(xcsp3Var);
         Set<Extension> extensionsSet = nonogram.getExtensionSet();
@@ -106,7 +102,7 @@ public class Main {
                             // System.out.println(support+"   "+extension.supports[o][2]);
                             if (support[0] == extension.supports[o][0] && support[1] == extension.supports[o][1] && support[2] == extension.supports[o][2]) {
                                 isSupport = true;
-                                System.out.println("x");
+                                // System.out.println("x");
                             }
                             // else{
                             //     isSupport = false;
@@ -114,12 +110,12 @@ public class Main {
                             // }
                         }
                         if (isSupport){
-                            test++;
+                            // test++;
                         }
                         if (!isSupport) {
                             extensionSupport[track] = support;
                             for (int o = 0; o < supp.size(); o++) {
-                                System.out.println("yepp");
+                                // System.out.println("yepp");
                                 noSupports += supp.get(o) + " ";
                             }
                             noSupports += "0\n";
@@ -134,7 +130,7 @@ public class Main {
             supportList.add(extensionSupport);
             supportList2.add(extentSupport);
         }
-        System.out.println(test);
+        // System.out.println(test);
         // output += "c The next lines contain the noSupports\n";
         output += noSupports;
         // output += "c EOF\n";
@@ -149,6 +145,15 @@ public class Main {
         satFile.print(output.trim());
         satFile.close();
 
+    }
+
+    public static void main(String[] args) throws Exception {
+        for (int i = 1; i <= 180; i++) {
+            String inputString = String.format("instances/big/Nonogram-%03d-regular-table.xml", i);
+            String outputString = String.format("output/minisatOutput/Nonogram-%03d-regular-table.cnf", i);
+            createSat(inputString,outputString);
+        }
+        
     }
 
 }
