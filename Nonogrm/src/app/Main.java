@@ -14,8 +14,8 @@ public class Main {
     public static void main(String[] args) throws Exception {
         int test = 0;
         // path of the input and output
-        String path = "instances/small/test-001-ternary.xml";
-        // String path = "instances/big/Nonogram-001-regular-table.xml";
+        // String path = "instances/small/test-001-ternary.xml";
+        String path = "instances/big/Nonogram-001-regular-table.xml";
         String outputPath = "output/minisatFile.cnf";
         // variable containing the output String
         String output = "";
