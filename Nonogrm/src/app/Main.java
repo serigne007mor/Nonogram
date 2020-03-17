@@ -83,7 +83,8 @@ public class Main {
         List<int[][]> supportList = new ArrayList<int[][]>(n);
         List<List<List<String>>> supportList2 = new ArrayList<List<List<String>>>(n);
         for (Extension extension : extensionList) {
-            int extensionSupport[][] = new int[1000][3];
+            int lenght = extension.VarIntegerList[0].value.length *extension.VarIntegerList[1].value.length*extension.VarIntegerList[2].value.length;
+            int extensionSupport[][] = new int[lenght][3];
             List<List<String>> extentSupport = new ArrayList<List<String>>();
             int track = 0;
             for (int i = 0; i < extension.VarIntegerList[0].value.length; i++) {
@@ -148,9 +149,9 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-        for (int i = 1; i <= 180; i++) {
-            String inputString = String.format("instances/big/Nonogram-%03d-regular-table.xml", i);
-            String outputString = String.format("output/minisatOutput/Nonogram-%03d-regular-table.cnf", i);
+        for (int i = 8; i <= 50; i++) {
+            String inputString = String.format("Nonogram/Nonogrm/instances/big/Nonogram-%03d-regular-table.xml", i);
+            String outputString = String.format("Nonogram/Nonogrm/output/minisatOutput/Nonogram-%03d-regular-table.cnf", i);
             createSat(inputString,outputString);
         }
         
