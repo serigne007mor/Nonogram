@@ -1,7 +1,6 @@
 import xmltodict
 import json
 import os
-import cProfile
 from itertools import product
 import sys
 import threading
