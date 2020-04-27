@@ -4,5 +4,8 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
-    }
+    },
+    "maven.view": "flat",
+    "java.dependency.packagePresentation": "flat",
+    "java.dependency.syncWithFolderExplorer": true
 }

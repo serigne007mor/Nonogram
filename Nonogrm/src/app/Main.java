@@ -149,12 +149,12 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-        for (int i = 8; i <= 50; i++) {
-            String inputString = String.format("Nonogram/Nonogrm/instances/big/Nonogram-%03d-regular-table.xml", i);
-            String outputString = String.format("Nonogram/Nonogrm/output/minisatOutput/Nonogram-%03d-regular-table.cnf", i);
-            createSat(inputString,outputString);
-        }
-        
+        // for (int i = 8; i <= 50; i++) {
+        //     String inputString = String.format("instances/big/Nonogram-%03d-regular-table.xml", i);
+        //     String outputString = String.format("output/minisatOutput/Nonogram-%03d-regular-table.cnf", i);
+        //     createSat(inputString,outputString);
+        // }
+        createSat("instances/big/Nonogram-069-regular-table.xml","instances/small/Nonogram-069-regular-table.cnf");
     }
 
 }
