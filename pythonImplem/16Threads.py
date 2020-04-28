@@ -25,6 +25,7 @@ def createSat(inputFile, outputFile):
     xVarDict = {}
     qVarDict = {}
     numClauses = 0
+    print(inputFile, "WORKING")
     for val in docu.get("instance").get("variables").get("var"):
         for key, value in val.items():
             variables.append(value)
@@ -35,7 +36,7 @@ def createSat(inputFile, outputFile):
         elif i%2 == 1:
             varValue.append(variables[i].split(" "))
             varValue2.append(variables[i].split(" "))
-            
+    print(inputFile, "WORKING")
     for i in range(0,len(varId)):
         if (varId[i][0] == 'x'):
             xId.append(varId[i])
@@ -46,7 +47,7 @@ def createSat(inputFile, outputFile):
     
     qId = sorted(qId, key=lambda x: int("".join([i for i in x if i.isdigit()])))
     xId = sorted(xId, key=lambda x: int("".join([i for i in x if i.isdigit()])))
-    
+    print(inputFile, "WORKING")
     for id, var in zip (xId, xVar):
         xVarDict[id] = var
     for id, var in zip (qId, qVar):
@@ -78,7 +79,7 @@ def createSat(inputFile, outputFile):
         qVar[trackQ] = satVarDict[id]
         trackQ+=1
 
-
+    print(inputFile, "WORKING")
     for i in varId:
         for j in satVarDict.get(i):
             finalOutput = finalOutput + (str(j)+" ")

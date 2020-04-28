@@ -3,14 +3,10 @@ import threading
 import os
 
 def wait1():
-    print("Task 1 assigned to thread: {}".format(threading.current_thread().name)) 
-    print("ID of process running task 1: {}".format(os.getpid())) 
-    time.sleep(5)
+    print("hi")
 
 def wait2():
-    print("Task 2 assigned to thread: {}".format(threading.current_thread().name)) 
-    print("ID of process running task 2: {}".format(os.getpid())) 
-    time.sleep(5)
+    print("hello")
     
 
  # print ID of current process 
