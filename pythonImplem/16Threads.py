@@ -78,11 +78,7 @@ def createSat(inputFile, outputFile):
         qVar[trackQ] = satVarDict[id]
         trackQ+=1
 
-        
-    
-    
-    
-    ##############################
+
     for i in varId:
         for j in satVarDict.get(i):
             finalOutput = finalOutput + (str(j)+" ")
@@ -130,14 +126,13 @@ def createSat(inputFile, outputFile):
  
     allSupportSat = []
     allSupport = []
-
+    print(inputFile, "All support")
     for i, v in IdListDict.items():
         allSupportSat.append(list(product(satVarDict.get(IdListDict.get(i)[0]), satVarDict.get(IdListDict.get(i)[1]), satVarDict.get(IdListDict.get(i)[2]))))
         allSupport.append(list(product(varDict.get(IdListDict.get(i)[0]), varDict.get(IdListDict.get(i)[1]), varDict.get(IdListDict.get(i)[2]))))
     
     noGoodTemp = []
     noGood = []
-    print(inputFile, "All support")
     for i in range(0, len(allSupport)):
         for j in range(0, len(allSupport[i])):
             if(allSupport[i][j] in IdSupportDict.get(extentionId[i])):
@@ -146,7 +141,7 @@ def createSat(inputFile, outputFile):
         noGood.append(noGoodTemp)
                 
                 
-    print(inputFile, "no goods")
+    print(inputFile, "No goods")
    
     for i in range(0,len(allSupportSat)):
         allSupportSat[i] = [x for x in allSupportSat[i] if x not in noGood[i]]
@@ -161,55 +156,106 @@ def createSat(inputFile, outputFile):
     out.write("p cnf "+str(satTracker-1)+" "+str(numClauses)+"\n")
     out.write(finalOutput)
     out.close 
+    a = [(1,2,3) , (4,5,6)]
+    c = [(1,2,3),(4,5,6), (7,8,9),(10,11,12)]
+    d = [x for x in c if x not in a]
     print(inputFile, "DONE")
-
-def to22():
-    for i in range(1, 22):
+def to11():
+    for i in range(1, 11):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
+def to22():
+    for i in range(11, 22):
+        inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
+        outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
+        createSat(inputFile, outputFile)
+
+def to33():
+    for i in range(22, 33):
+        inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
+        outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
+        createSat(inputFile, outputFile)
+        
 def to44():
-    for i in range(22, 44):
+    for i in range(33, 44):
+        inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
+        outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
+        createSat(inputFile, outputFile)
+
+def to55():
+    for i in range(44, 55):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
 def to66():
-    for i in range(44, 66):
+    for i in range(55, 66):
+        inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
+        outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
+        createSat(inputFile, outputFile)
+
+def to77():
+    for i in range(66, 77):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
 def to88():
-    for i in range(66, 88):
+    for i in range(77, 88):
+        inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
+        outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
+        createSat(inputFile, outputFile)
+
+def to99():
+    for i in range(88,99):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
 def to110():
-    for i in range(88, 110):
+    for i in range(99,110):
+        inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
+        outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
+        createSat(inputFile, outputFile)
+
+def to121():
+    for i in range(110, 121):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
 def to132():
-    for i in range(110,132):
+    for i in range(121, 132):
+        inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
+        outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
+        createSat(inputFile, outputFile)
+
+def to143():
+    for i in range(132, 143):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
 def to154():
-    for i in range(132,154):
+    for i in range(143, 154):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
-def to180():
-    for i in range(154, 181):
+def to165():
+    for i in range(154, 165):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
+        
+def to180():
+    for i in range(165, 181):
+        inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
+        outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
+        createSat(inputFile, outputFile)
+        
 
 if __name__ == "__main__":
     # print ID of current process 
@@ -218,14 +264,22 @@ if __name__ == "__main__":
     # print name of main thread 
     print("Main thread name: {}".format(threading.current_thread().name)) 
   
-    t1 = threading.Thread(target=to22, name='t1') 
-    t2 = threading.Thread(target=to44, name='t2')
-    t3 = threading.Thread(target=to66, name='t3') 
-    t4 = threading.Thread(target=to88, name='t4') 
-    t5 = threading.Thread(target=to110, name='t5') 
-    t6 = threading.Thread(target=to132, name='t6') 
-    t7 = threading.Thread(target=to154, name='t7') 
-    t8 = threading.Thread(target=to180, name='t8') 
+    t1 = threading.Thread(target=to11, name='t1') 
+    t2 = threading.Thread(target=to22, name='t2') 
+    t3 = threading.Thread(target=to33, name='t3') 
+    t4 = threading.Thread(target=to44, name='t4')
+    t5 = threading.Thread(target=to55, name='t5') 
+    t6 = threading.Thread(target=to66, name='t6') 
+    t7 = threading.Thread(target=to77, name='t7') 
+    t8 = threading.Thread(target=to88, name='t8') 
+    t9 = threading.Thread(target=to99, name='t9') 
+    t10 = threading.Thread(target=to110, name='t10') 
+    t11 = threading.Thread(target=to121, name='t11') 
+    t12 = threading.Thread(target=to132, name='t12') 
+    t13 = threading.Thread(target=to143, name='t13') 
+    t14 = threading.Thread(target=to154, name='t14') 
+    t15 = threading.Thread(target=to165, name='t15') 
+    t16 = threading.Thread(target=to180, name='t16') 
 
     t1.start()
     t2.start()
@@ -235,4 +289,12 @@ if __name__ == "__main__":
     t6.start()
     t7.start()
     t8.start()
+    t9.start()
+    t10.start()
+    t11.start()
+    t12.start()
+    t13.start()
+    t14.start()
+    t15.start()
+    t16.start()
     
