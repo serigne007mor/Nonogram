@@ -7,7 +7,6 @@ import threading
 
 
 def createSat(inputFile, outputFile):
-    print(inputFile, "START")
     file = open(inputFile, 'r')
     # file = open('instances/small/test-001-ternary.xml')
     out = open(outputFile, 'w')
@@ -63,7 +62,7 @@ def createSat(inputFile, outputFile):
         for j in range(0,len(varValue2[i])):
             satValue[i][j]  = str(satTracker)
             satTracker+=1 
-    # print(varValue)
+
     for id, valueV in zip(varId, varValue):
         varDict[id] = valueV
     for id, value in zip(varId, satValue):
@@ -139,12 +138,10 @@ def createSat(inputFile, outputFile):
     for i in range(0, len(allSupport)):
         for j in range(0, len(allSupport[i])):
             if(allSupport[i][j] in IdSupportDict.get(extentionId[i])):
-                # print(allSupport[i][j])
                 noGoodTemp.append(allSupportSat[i][j])
         noGood.append(noGoodTemp)
                 
                 
-    # print(noGoods)
    
     for i in range(0,len(allSupportSat)):
         allSupportSat[i] = [x for x in allSupportSat[i] if x not in noGood[i]]
@@ -154,10 +151,9 @@ def createSat(inputFile, outputFile):
             finalOutput = finalOutput + "-"+j[0]+" -"+j[1]+" -"+j[2]+" 0\n"
             numClauses+=1
     
-    print(inputFile, "DONE")
-    out.write("c this is nonogram instance\n")
-    out.write("p cnf "+str(satTracker-1)+" "+str(numClauses)+"\n")
-    out.write(finalOutput)
+    print("c this is nonogram instance")
+    print("p cnf "+str(satTracker-1)+" "+str(numClauses))
+    print(finalOutput)
     out.close 
     a = [(1,2,3) , (4,5,6)]
     c = [(1,2,3),(4,5,6), (7,8,9),(10,11,12)]
@@ -261,12 +257,7 @@ def to180():
         
 
 if __name__ == "__main__":
-    # print ID of current process 
-    print("ID of process running main program: {}".format(os.getpid())) 
-  
-    # print name of main thread 
-    print("Main thread name: {}".format(threading.current_thread().name)) 
-  
+    
     t1 = threading.Thread(target=to11, name='t1') 
     t2 = threading.Thread(target=to22, name='t2') 
     t3 = threading.Thread(target=to33, name='t3') 
