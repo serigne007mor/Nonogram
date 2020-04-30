@@ -4,7 +4,7 @@ import os
 import cProfile
 from itertools import product
 import sys
-import threading
+import multiprocessing
 
 
 def createSat(inputFile, outputFile):
@@ -259,28 +259,28 @@ def to180():
         
 
 if __name__ == "__main__":
-    # print ID of current process 
-    print("ID of process running main program: {}".format(os.getpid())) 
+    # # print ID of current process 
+    # print("ID of process running main program: {}".format(os.getpid())) 
   
-    # print name of main thread 
-    print("Main thread name: {}".format(threading.current_thread().name)) 
+    # # print name of main Process 
+    # print("Main Process name: {}".format(multiprocessing.current_Process().name)) 
   
-    t1 = threading.Thread(target=to11, name='t1') 
-    t2 = threading.Thread(target=to22, name='t2') 
-    t3 = threading.Thread(target=to33, name='t3') 
-    t4 = threading.Thread(target=to44, name='t4')
-    t5 = threading.Thread(target=to55, name='t5') 
-    t6 = threading.Thread(target=to66, name='t6') 
-    t7 = threading.Thread(target=to77, name='t7') 
-    t8 = threading.Thread(target=to88, name='t8') 
-    t9 = threading.Thread(target=to99, name='t9') 
-    t10 = threading.Thread(target=to110, name='t10') 
-    t11 = threading.Thread(target=to121, name='t11') 
-    t12 = threading.Thread(target=to132, name='t12') 
-    t13 = threading.Thread(target=to143, name='t13') 
-    t14 = threading.Thread(target=to154, name='t14') 
-    t15 = threading.Thread(target=to165, name='t15') 
-    t16 = threading.Thread(target=to180, name='t16') 
+    t1 = multiprocessing.Process(target=to11, name='t1') 
+    t2 = multiprocessing.Process(target=to22, name='t2') 
+    t3 = multiprocessing.Process(target=to33, name='t3') 
+    t4 = multiprocessing.Process(target=to44, name='t4')
+    t5 = multiprocessing.Process(target=to55, name='t5') 
+    t6 = multiprocessing.Process(target=to66, name='t6') 
+    t7 = multiprocessing.Process(target=to77, name='t7') 
+    t8 = multiprocessing.Process(target=to88, name='t8') 
+    t9 = multiprocessing.Process(target=to99, name='t9') 
+    t10 = multiprocessing.Process(target=to110, name='t10') 
+    t11 = multiprocessing.Process(target=to121, name='t11') 
+    t12 = multiprocessing.Process(target=to132, name='t12') 
+    t13 = multiprocessing.Process(target=to143, name='t13') 
+    t14 = multiprocessing.Process(target=to154, name='t14') 
+    t15 = multiprocessing.Process(target=to165, name='t15') 
+    t16 = multiprocessing.Process(target=to180, name='t16') 
 
     t1.start()
     t2.start()
