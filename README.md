@@ -1,2 +1,2 @@
 # Nonogram
-Nonogram solver 
+Nonogram converder from csp to SAT
