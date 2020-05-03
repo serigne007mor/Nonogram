@@ -11,7 +11,7 @@ import multiprocessing
 def createSat(inputFile, outputFile):
     
     if(os.path.isfile(inputFile)):
-        print(inputFile, "START")
+        print(inputFile, "START, running on:", os. getppid())
         file = open(inputFile, 'r')
         # file = open('instances/small/test-001-ternary.xml')
         out = open(outputFile, 'w')
@@ -174,46 +174,94 @@ def createSat(inputFile, outputFile):
     else:
         print(inputFile, "DOES NOT EXITS")
 
-def to11():
-    # createSat("instances/big/Nonogram-028-regular-table.xml", "sat/Nonogram-028-regular-table.cnf")
-    for i in range(121, 122):
-        inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
-        outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
-        createSat(inputFile, outputFile)
-    print(threading.current_thread().name, "DONE")
+def core1():#DONE
+    inputFile = "instances/big/Nonogram-004-regular-table.xml"
+    outputFile = "sat/Nonogram-004-regular-table.cnf"
+    createSat(inputFile, outputFile)
 
-def to22():
-    # createSat("instances/big/Nonogram-028-regular-table.xml", "sat/Nonogram-028-regular-table.cnf")
-    for i in range(122, 123):
-        inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
-        outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
-        createSat(inputFile, outputFile)
+def core2():
+    inputFile = "instances/big/Nonogram-007-regular-table.xml"
+    outputFile = "sat/Nonogram-007-regular-table.cnf"
+    createSat(inputFile, outputFile)
 
+def core3():
+    inputFile = "instances/big/Nonogram-024-regular-table.xml"
+    outputFile = "sat/Nonogram-024-regular-table.cnf"
+    createSat(inputFile, outputFile)
+        
+def core4():
+    inputFile = "instances/big/Nonogram-025-regular-table.xml"
+    outputFile = "sat/Nonogram-025-regular-table.cnf"
+    createSat(inputFile, outputFile)
+
+def core5():
+    inputFile = "instances/big/Nonogram-026-regular-table.xml"
+    outputFile = "sat/Nonogram-026-regular-table.cnf"
+    createSat(inputFile, outputFile)
+
+def core6():
+    inputFile = "instances/big/Nonogram-028-regular-table.xml"
+    outputFile = "sat/Nonogram-028-regular-table.cnf"
+    createSat(inputFile, outputFile)
+
+def core7():
+    inputFile = "instances/big/Nonogram-029-regular-table.xml"
+    outputFile = "sat/Nonogram-029-regular-table.cnf"
+    createSat(inputFile, outputFile)
+
+def core8():
+    inputFile = "instances/big/Nonogram-030-regular-table.xml"
+    outputFile = "sat/Nonogram-030-regular-table.cnf"
+    createSat(inputFile, outputFile)
+
+# def core9():
+#     for i in range(88,99):
+#         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
+#         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
+#         createSat(inputFile, outputFile)
+
+# def core10():
+#     for i in range(99,110):
+#         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
+#         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
+#         createSat(inputFile, outputFile)
+
+# def core11():
+#     for i in range(110, 121):
+#         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
+#         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
+#         createSat(inputFile, outputFile)
+
+# def core12():
+#     for i in range(121, 132):
+#         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
+#         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
+#         createSat(inputFile, outputFile)
 
 
 if __name__ == "__main__":
-    # print ID of current process 
-    print("ID of process running main program: {}".format(os.getpid())) 
-  
-    # print name of main thread 
-    print("Main thread name: {}".format(threading.current_thread().name)) 
-  
-    t1 = multiprocessing.Process(target=to11, name='t1') 
-    t2 = multiprocessing.Process(target=to22, name='t2') 
-    # t3 = threading.Thread(target=to33, name='t3') 
-    # t4 = threading.Thread(target=to44, name='t4')
-    # t5 = threading.Thread(target=to55, name='t5') 
-    # t6 = threading.Thread(target=to66, name='t6') 
-    # t7 = threading.Thread(target=to77, name='t7') 
-    # t8 = threading.Thread(target=to88, name='t8') 
+    
+    
+    inputFile = "instances/big/Nonogram-066-regular-table.xml"
+    outputFile = "sat/Nonogram-066-regular-table.cnf"
+    createSat(inputFile, outputFile)
+    
+    # t1 = multiprocessing.Process(target=core1, name='t1') 
+    # t2 = multiprocessing.Process(target=core2, name='t2') 
+    # t3 = multiprocessing.Process(target=core3, name='t3') 
+    # t4 = multiprocessing.Process(target=core4, name='t4')
+    # t5 = multiprocessing.Process(target=core5, name='t5') 
+    # t6 = multiprocessing.Process(target=core6, name='t6') 
+    # t7 = multiprocessing.Process(target=core7, name='t7') 
+    # t8 = multiprocessing.Process(target=core8, name='t8') 
     # t9 = threading.Thread(target=to99, name='t9') 
     # t10 = threading.Thread(target=to110, name='t10') 
     # t11 = threading.Thread(target=to121, name='t11') 
     # t12 = threading.Thread(target=to132, name='t12') 
  
 
-    t1.start()
-    t2.start()
+    # t1.start()
+    # t2.start()
     # t3.start()
     # t4.start()
     # t5.start()

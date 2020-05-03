@@ -36,7 +36,6 @@ def createSat(inputFile, outputFile):
         elif i%2 == 1:
             varValue.append(variables[i].split(" "))
             varValue2.append(variables[i].split(" "))
-    print(inputFile, "WORKING")
     for i in range(0,len(varId)):
         if (varId[i][0] == 'x'):
             xId.append(varId[i])
@@ -47,7 +46,6 @@ def createSat(inputFile, outputFile):
     
     qId = sorted(qId, key=lambda x: int("".join([i for i in x if i.isdigit()])))
     xId = sorted(xId, key=lambda x: int("".join([i for i in x if i.isdigit()])))
-    print(inputFile, "WORKING")
     for id, var in zip (xId, xVar):
         xVarDict[id] = var
     for id, var in zip (qId, qVar):
@@ -65,7 +63,6 @@ def createSat(inputFile, outputFile):
         for j in range(0,len(varValue2[i])):
             satValue[i][j]  = str(satTracker)
             satTracker+=1 
-    # print(varValue)
     for id, valueV in zip(varId, varValue):
         varDict[id] = valueV
     for id, value in zip(varId, satValue):
@@ -79,7 +76,6 @@ def createSat(inputFile, outputFile):
         qVar[trackQ] = satVarDict[id]
         trackQ+=1
 
-    print(inputFile, "WORKING")
     for i in varId:
         for j in satVarDict.get(i):
             finalOutput = finalOutput + (str(j)+" ")
@@ -161,79 +157,79 @@ def createSat(inputFile, outputFile):
     c = [(1,2,3),(4,5,6), (7,8,9),(10,11,12)]
     d = [x for x in c if x not in a]
     print(inputFile, "DONE")
-def to11():
+def core1():
     for i in range(1, 11):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
-def to22():
+def core2():
     for i in range(11, 22):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
-def to33():
+def core3():
     for i in range(22, 33):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
         
-def to44():
+def core4():
     for i in range(33, 44):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
-def to55():
+def core5():
     for i in range(44, 55):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
-def to66():
+def core6():
     for i in range(55, 66):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
-def to77():
+def core7():
     for i in range(66, 77):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
-def to88():
+def core8():
     for i in range(77, 88):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
-def to99():
+def core9():
     for i in range(88,99):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
-def to110():
+def core10():
     for i in range(99,110):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
-def to121():
+def core11():
     for i in range(110, 121):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
-def to132():
+def core12():
     for i in range(121, 132):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
         createSat(inputFile, outputFile)
 
-def to143():
+def core3():
     for i in range(132, 143):
         inputFile = "instances/big/Nonogram-"+str(i).zfill(3)+"-regular-table.xml"
         outputFile = "sat/Nonogram-"+str(i).zfill(3)+"-regular-table.cnf"
@@ -259,24 +255,24 @@ def to180():
         
 
 if __name__ == "__main__":
-    # # print ID of current process 
-    # print("ID of process running main program: {}".format(os.getpid())) 
+    # print ID of current process 
+    print("ID of process running main program: {}".format(os.getpid())) 
   
-    # # print name of main Process 
-    # print("Main Process name: {}".format(multiprocessing.current_Process().name)) 
+    # print name of main thread 
+    print("Main thread name: {}".format(multiprocessing.current_thread().name)) 
   
-    t1 = multiprocessing.Process(target=to11, name='t1') 
-    t2 = multiprocessing.Process(target=to22, name='t2') 
-    t3 = multiprocessing.Process(target=to33, name='t3') 
-    t4 = multiprocessing.Process(target=to44, name='t4')
-    t5 = multiprocessing.Process(target=to55, name='t5') 
-    t6 = multiprocessing.Process(target=to66, name='t6') 
-    t7 = multiprocessing.Process(target=to77, name='t7') 
-    t8 = multiprocessing.Process(target=to88, name='t8') 
-    t9 = multiprocessing.Process(target=to99, name='t9') 
-    t10 = multiprocessing.Process(target=to110, name='t10') 
-    t11 = multiprocessing.Process(target=to121, name='t11') 
-    t12 = multiprocessing.Process(target=to132, name='t12') 
+    t1 = multiprocessing.Process(target=core1, name='t1') 
+    t2 = multiprocessing.Process(target=core2, name='t2') 
+    t3 = multiprocessing.Process(target=core3, name='t3') 
+    t4 = multiprocessing.Process(target=core4, name='t4')
+    t5 = multiprocessing.Process(target=core5, name='t5') 
+    t6 = multiprocessing.Process(target=core6, name='t6') 
+    t7 = multiprocessing.Process(target=core7, name='t7') 
+    t8 = multiprocessing.Process(target=core8, name='t8') 
+    t9 = multiprocessing.Process(target=core9, name='t9') 
+    t10 = multiprocessing.Process(target=core10, name='t10') 
+    t11 = multiprocessing.Process(target=core11, name='t11') 
+    t12 = multiprocessing.Process(target=core12, name='t12') 
     t13 = multiprocessing.Process(target=to143, name='t13') 
     t14 = multiprocessing.Process(target=to154, name='t14') 
     t15 = multiprocessing.Process(target=to165, name='t15') 

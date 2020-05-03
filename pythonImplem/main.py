@@ -3,7 +3,7 @@ import json
 import os
 import cProfile
 from itertools import product
-import sys
+
 import multiprocessing
 
 
